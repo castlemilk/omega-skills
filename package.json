@@ -1,6 +1,6 @@
 {
   "name": "omega-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Portable agent skills, including the beneb systems logo workflow",
   "type": "module",
@@ -8,7 +8,7 @@
     "node": ">=22.20.0"
   },
   "scripts": {
-    "test": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs && node tests/curate.test.mjs",
     "test:install": "node scripts/smoke-install.mjs"
   }
 }

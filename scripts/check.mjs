@@ -26,6 +26,8 @@ const required = [
   'references/review-rubric.md',
   'references/host-adapters.md',
   'references/state-template.md',
+  'references/selection-learning.md',
+  'scripts/curate.mjs',
 ];
 
 const files = await filesUnder(skillRoot);

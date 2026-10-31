@@ -12,11 +12,13 @@ Use the master to organise a batch. Send one focused construction brief to each 
 
 ## Run controls
 
-Resolve the requested number **N** from the current request and any unfinished active batch. Accept positive whole numbers, including unambiguous numbers written in words. Use five only when no explicit or active count exists. Do not treat numbers describing an era or geometry as the batch count, or a quoted shortcut example as an instruction to generate.
+Resolve action intent before numbers. Selection and comparison identifiers are not batch counts. Resolve **N** from the current request, an unfinished active batch, or the prior batch size when explicitly continuing an active learning loop. Accept positive whole numbers, including unambiguous numbers written in words. Use five only when no explicit or active count exists. Do not treat numbers describing an era or geometry as the batch count, or a quoted shortcut example as an instruction to generate.
 
 Count final separate presentations. Miniatures, rejected attempts and corrections do not increase N. Deliver all N in manageable waves without an arbitrary cap. If a real capability limit blocks completion, identify the completed images and exact remainder.
 
-Use **refinement** when the user identifies a mark to preserve; change only the named properties. Otherwise default to **radical exploration**. In radical batches of at least five, aim for roughly 60% substantially fresh constructions, using the rest for useful comparisons. Do not apply novelty quotas to refinement.
+Use **refinement** when the user asks to preserve and refine a mark; change only the named properties. Default fresh exploration to **radical exploration**, and an unspecified continuation after selections to **adaptive** mode. In radical batches of at least five, aim for roughly 60% substantially fresh constructions. In adaptive batches of at least five, aim for roughly 60% refinements, 30% nearby branches and 10% credible alternatives, reserving at least one alternative and exactly N outputs. Do not apply these quotas to explicit refinement. Follow [selection-learning.md](selection-learning.md) for evidence, counts and profile updates.
+
+Read the current taste-profile revision before drafting each brief. Include only relevant active constraints. Identify the supporting selection or explicit reason for an inherited property, and distinguish a tentative preference under test from a property to preserve. Keep gallery IDs in captions and records rather than in the artwork prompt.
 
 ## Master brief
 
@@ -25,7 +27,7 @@ Create original visual identity artwork for "beneb systems".
 
 Focus: [core logos / one extension mode]
 Era: year 3000
-Mode: [radical exploration / refinement]
+Mode: [radical exploration / adaptive / refinement]
 Images: [N] separate presentations
 Palette: obsidian and near-black with flat ivory geometry
 Geometry: clean strong contours, substantial masses, deliberate negative space
@@ -81,6 +83,8 @@ Connections: [which elements join and at which endpoints].
 Outer silhouette: [dominant contour, proportion and terminal shape].
 Primary experiment: [one formal change or question].
 Invariants: [properties to preserve].
+Learned constraint and evidence: [active explicit or supported preference; or none].
+Tentative preference to test: [one uncertain inference; or none].
 Actual image inputs: [each supplied image and its role; or none].
 Presentation: [one mode; fixed layout when comparing geometry].
 Exact text: "beneb systems" [plus only explicitly requested text].

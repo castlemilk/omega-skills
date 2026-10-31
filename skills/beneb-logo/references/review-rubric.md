@@ -12,6 +12,8 @@ Inspect actual pixels before reading the title or interpreting the premise. Use 
 | Narrative usefulness | A visible relationship supports the stated interpretation. |
 | Presentation consistency | Type, scale, layout and material treatment allow a meaningful comparison. |
 | Practical performance | Use actual application evidence; otherwise mark small-size performance, vector equality and fabrication as not tested. |
+| Learned preference fit | Identify the active preference and supporting user feedback IDs; distinguish an explicit constraint from a hypothesis. |
+| Useful comparison | The variation tests one uncertainty while its baseline and presentation remain interpretable. |
 
 ## Inspection sequence
 
@@ -34,6 +36,16 @@ When material or chrome studies are included, compare their topology and opening
 - **Explore further:** distinct relationship with a worthwhile unresolved question.
 
 These are assistant judgments unless the user explicitly selects a result. Keep different reviewers' scopes clear.
+
+## Review after user selections
+
+Follow [numbered curation and learning](selection-learning.md). Resolve the exact displayed revisions before interpreting feedback. Inspect selected images and any stated comparisons; save a preference without visual inference if its image cannot be accessed.
+
+Separate four questions: what the user chose, what reason the user stated, what the image visibly contains, and what the assistant hypothesises. A common feature among favourites suggests a comparison to run; it does not prove the user's reason. Unselected images provide no negative rating.
+
+Carry a prior selected image as a baseline when judging a refinement. Keep framing, type, material and scale comparable when testing geometry. An assistant rating can identify a visible change, but only subsequent user feedback can establish that the change better matches that user's taste.
+
+Evaluate a new lesson against supporting and contrary selection events across distinct batches. Reduce or retire an inference when evidence conflicts, and re-evaluate lessons that depend on undone feedback. Avoid counting repeated views, corrections or retries as independent preference evidence. Keep a credible alternative in adaptive mode so the process can discover an over-narrow assumption.
 
 ## Common diagnoses
 

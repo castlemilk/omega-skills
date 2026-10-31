@@ -1,6 +1,20 @@
 # Project state template
 
+## Contents
+
+- [Current brief](#current-brief)
+- [Explicit user preferences and selections](#explicit-user-preferences-and-selections)
+- [Provisional assistant judgments](#provisional-assistant-judgments)
+- [Visual anchors](#visual-anchors)
+- [Workflow configuration](#workflow-configuration)
+- [Current batch](#current-batch)
+- [Learned design profile](#learned-design-profile)
+- [Latest learning delta](#latest-learning-delta)
+- [Useful learning](#useful-learning)
+
 Copy this template into the project's configured state location, such as `beneb/state.md`, when local project state is supported. Keep the installed template unchanged. Replace fields with observed facts; leave unknown values explicitly unset.
+
+Apply [numbered curation and learning](selection-learning.md). The profile is a compact view of active evidence; the full selection events and frozen galleries belong in the curation record.
 
 ## Current brief
 
@@ -11,6 +25,8 @@ Copy this template into the project's configured state location, such as `beneb/
 - Active count: unset
 - Count source: unset
 - Batch status: idle
+- Learning mode: no selection evidence yet
+- Active learning-loop batch size: unset
 - Current user constraints: obsidian atmosphere, clean strong contours, deliberate negative space, restrained accurate wordmark
 - Current objective: unset
 
@@ -25,8 +41,12 @@ Copy this template into the project's configured state location, such as `beneb/
 - Accessible image path or provider reference: unset
 - Reference role: unset
 - Evidence source: unset
+- Selection event IDs: none
+- Selected revision IDs: none
 
 Record a preferred refinement parent separately from final identity approval. General approval and continuation do not select a particular image. Current user instructions override historical defaults.
+
+Unchosen images remain unrated. Keep an explicit rejection separate from a relative preference and from an assistant recommendation.
 
 ## Provisional assistant judgments
 
@@ -60,14 +80,47 @@ An unset external archive does not block otherwise authorised local generation a
 ## Current batch
 
 - Run identifier: unset
+- Stable batch ID: unset
+- Collection namespace: unset
+- Active displayed gallery ID: unset
+- Frozen number-to-revision mapping: unset
 - Requested final count: unset
 - Selected final count: 0
 - Completed indices: none
 - Outstanding indices: none
 - Batch record location: unset
 - Latest verified save: unset
+- Curation record location: unset
 
 Keep the full exact prompts, actual image inputs, generated outputs and meaningful correction history in the batch record. A correction replaces a direction's selected image and does not increase the requested count.
+
+Use a new gallery snapshot when a displayed revision changes. Retain previous snapshots so a number in older feedback still identifies the image the user actually saw.
+
+## Learned design profile
+
+- Profile revision: unset
+- Parent profile revision: unset
+- Active supporting feedback IDs: none
+- Last applied feedback event: unset
+- Learning reset boundary: none
+
+| Claim | Scope | Evidence events and inspected assets | Contrary evidence | Status | Next test |
+| --- | --- | --- | --- | --- | --- |
+| Add only an explicit instruction or a useful hypothesis. | Name the property, family or output mode. | Use actual recorded IDs. | Record contradiction or say none observed. | Explicit, tentative, supported, contested or inactive. | Name one discriminating comparison. |
+
+Keep stated reasons, exact image selections, visual observations and inferred tastes distinct. A single favourite establishes a parent without establishing every visible trait as a permanent rule. Repeated selections from one comparison are not independent evidence across batches.
+
+## Latest learning delta
+
+- User's exact feedback: unset
+- Chosen, rejected or compared revision IDs: none
+- Explicit reasons: none stated
+- Provisional inference: none
+- Changed prompt or review rule: none
+- Next comparison: unset
+- Generated next batch: not requested
+
+Undo and reset must deactivate affected learning as well as the feedback on which it depended. Preserve history without applying inactive lessons. Do not rebuild a reset profile from old choices unless the user asks to restore them.
 
 ## Useful learning
 

@@ -1,17 +1,30 @@
 # Batch planner and record
 
+## Contents
+
+- [Establish the run](#establish-the-run)
+- [Plan each direction](#plan-each-direction)
+- [Record each attempt](#record-each-attempt)
+- [Freeze the selectable gallery](#freeze-the-selectable-gallery)
+- [Record feedback and learning](#record-feedback-and-learning)
+- [Complete the batch](#complete-the-batch)
+
 Use this template to resolve the task before rendering and record what actually happened. Store run records in the project's configured archive, not in the installed skill.
 
 ## Establish the run
 
 ```text
 Run:
+Collection namespace:
+Stable batch ID:
 User request:
 Mode and focus:
 Requested final count N:
-Count source: explicit request / unfinished active batch / default five
+Count source: explicit request / unfinished batch / active learning-loop continuation / default five
 Active user constraints:
 Explicit user selections:
+Supporting feedback event IDs:
+Active design-profile revision:
 Provisional assistant candidates:
 Selected parent and accessible reference:
 Question this comparison should resolve:
@@ -19,13 +32,14 @@ Available image-generation and display capabilities:
 Output and archive destination:
 ```
 
-A new request after a completed batch does not automatically inherit the completed batch's count. Preserve an unfinished batch's count unless the user changes it. Discussion of installation, syntax or quoted examples does not start a generation run.
+Within an explicit active selection-and-learning loop, “continue” reuses that loop's previous batch size unless the user changes it. Preserve an unfinished batch's count as well. A fresh unrelated unspecified generation request defaults to five. Selection indices are not image counts. Discussion of installation, syntax or quoted examples does not start a generation run.
 
 ## Plan each direction
 
 | Field | Record |
 | --- | --- |
 | Index | Stable index from 1 to N |
+| Identity | Stable slot such as B001-02 and concrete revision such as B001-02-r1 |
 | Parent | Actual accessible asset, or no parent |
 | Hypothesis | What might improve and why |
 | Primary change | One observable geometric operation |
@@ -37,11 +51,15 @@ A new request after a completed batch does not automatically inherit the complet
 
 Vary construction in radical exploration: component count, enclosure, nesting, bridge position, symmetry, proportion and rhythm. In refinement, preserve the selected identity and named scope. When combining refinements, inspect the preceding results first and carry forward only useful changes.
 
+After selections, use [the learning loop](selection-learning.md) to plan an adaptive continuation when no explicit mode overrides it. Allocate refinements, nearby branches and an alternative to total exactly N. Keep the user's evidence separate from assistant hypotheses about why an image was chosen.
+
 ## Record each attempt
 
 ```text
 Direction index:
 Attempt identifier:
+Stable slot ID:
+Revision ID:
 Status: selected / superseded / rejected / incomplete
 Exact submitted prompt:
 Actual input images and roles:
@@ -60,6 +78,36 @@ Replaces attempt: [if applicable]
 ```
 
 Keep a generated output's original bytes. Preserve meaningful corrections and their edit targets. If a reference is unavailable, record that gap rather than reconstructing it from a caption.
+
+## Freeze the selectable gallery
+
+Record the display before inviting choices:
+
+| Number shown | Stable slot | Revision shown | Name | Actual image reference | Assistant review | User rating |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 through N | Existing batch-slot ID | Exact immutable revision | Short title | Accessible output reference | Retain, refine, park or explore further | Unrated until feedback |
+
+Save a gallery ID and its frozen mapping. Put the number and revision label beside each actual image, outside the artwork. A summary table does not replace image delivery. Do not renumber a shortlist or reuse a historical number for another image without an explicit mapping.
+
+For corrections, preserve the earlier revision, create the new revision in the same slot, and freeze a new displayed gallery. Feedback remains attached to the revision shown in its original gallery.
+
+## Record feedback and learning
+
+```text
+Feedback event ID and retry key:
+User's exact text:
+Gallery used for number resolution:
+Resolved revision IDs:
+Action: select / reject / neutral / prefer / undo
+Explicit rationale:
+Observed selected-image properties:
+Provisional preference hypothesis:
+Supporting and contrary evidence:
+Profile revision before and after:
+Next authorised generation request: [or none]
+```
+
+Unmentioned images remain unrated. A relative preference does not reject the losing image. Preserve the distinction between a chosen parent and final brand approval. A feedback-only turn saves learning without starting a new generation batch.
 
 ## Complete the batch
 
