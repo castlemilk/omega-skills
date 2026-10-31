@@ -1,14 +1,17 @@
 ---
 name: beneb-logo
-description: Generate, number, curate and refine beneb systems logo images, then improve future prompts and design choices from the user's selections. Use for /beneb-logo N, $beneb-logo, counted logo batches, selecting or rejecting numbered outputs, comparing favourites, reviewing learned preferences, undoing feedback, or continuing a beneb exploration. Preserve exact image lineage and explicit preferences separately from inferred hypotheses. Bundle includes all design guidance; no companion skill is required.
+description: Generate, number, curate and refine bene systems logo images, then improve future prompts and design choices from the user's selections. Use for /beneb-logo N, /beneb-logos N, $beneb-logo, counted logo batches, exploring different logos, selecting or rejecting numbered outputs, comparing favourites, reviewing learned preferences, undoing feedback, or continuing an exploration. Preserve exact image lineage and explicit preferences separately from inferred hypotheses. Bundle includes all design guidance; no companion skill is required.
 ---
 
 # beneb logo
 
 Turn `/beneb-logo N` into **N separate numbered logo presentations**, using real image generation. Curate the outputs, accept selections by number, and carry verified feedback into the next batch. Support natural-language requests and the host's skill invocation syntax. Installation supplies instructions and references; generation requires an image-capable host.
 
+Keep the installed skill identifier **beneb-logo** for compatibility. Accept `/beneb-logos` as a conversational instruction alias; do not promise a native shortcut the host has not registered. The identifier does not determine the rendered brand name.
+
 ## 1. Resolve the request
 
+- Resolve the exact brand text from the latest explicit user instruction, then current project state, then the default **bene systems**. A correction overrides older prompts and references. Preserve explicitly requested spelling and case; use lowercase for the default wordmark.
 - Resolve intent before numbers: selection, rejection, comparison, learning review and undo are feedback actions; they are not batch counts. Read [selection and learning](references/selection-learning.md) for these actions and the ongoing feedback loop.
 - Read the latest request together with the active batch. Accept a positive whole-number count, including an unambiguous number written in words. An explicit learning-loop continuation reuses that loop's batch size unless changed. Default to **5 only when neither an explicit nor an active count exists**.
 - A command quoted as an example, a request to install this skill, or a discussion of the shortcut does not start generation. Era numbers, geometry counts and motion states are not batch counts.
@@ -16,6 +19,7 @@ Turn `/beneb-logo N` into **N separate numbered logo presentations**, using real
 - N means selected final presentations. Rejected attempts, corrections and miniature duplicates inside a board do not add to N. Corrections replace their original direction in the selected set.
 - Honour N without an arbitrary cap. Generate in manageable waves. If a real capability or access limit blocks completion, show the completed images and state the exact remainder.
 - Default a fresh project to **core logos / radical exploration**. After explicit selections, use **adaptive exploration** for an unspecified continuation. When the user asks to refine an identified mark, preserve its identity and change the requested properties. An explicit mode always overrides the adaptive default.
+- Carry an active request to explore different logos through an ordinary continuation. General approval such as “I like this” does not select every preceding image or silently switch the task to refinement.
 
 Examples: `/beneb-logo 10` requests ten images; `/beneb-logo select 2,5` records feedback; `/beneb-logo refine 5 --count 6` requests six refinements of displayed option 5; `/beneb-logo select 2,5 --next 10` records feedback and requests ten more. `learn` shows the active taste profile; `undo last selection` retracts that feedback and dependent assumptions. These are skill-level instruction forms, not a standalone image CLI or a promise of native slash-menu registration.
 
@@ -23,17 +27,21 @@ Examples: `/beneb-logo 10` requests ten images; `/beneb-logo select 2,5` records
 
 Read [the aesthetic system](references/aesthetic-system.md) and [the prompt system](references/prompt-system.md). Use [host adapters](references/host-adapters.md) to establish generation, inspection, delivery and saving capabilities.
 
+Read [the design language](references/design-language.md) when establishing geometry, typography, a landing-page relationship or motion. Read [the construction catalog](references/construction-catalog.md) when seeking varied logo branches or diagnosing repeated silhouettes. Its recipes are starting points, not approved masters or a compulsory menu.
+
 Read existing project state if it is available and relevant. Use [the state template](references/state-template.md) for a new project; do not seed it with imagined historical selections. Inspect each accessible reference image before using it. Distinguish an **edit target**, **geometry ancestor** and **presentation reference**. Record inaccessible references and proceed only as far as the visible brief supports.
 
 Read the current taste-profile revision and its supporting selection events before planning. The user's current instruction overrides the profile. A selected image is evidence for that image; inferred reasons remain hypotheses until supported. Unselected outputs remain unlabelled. Keep private preferences and images out of public package updates.
 
-The brand is **beneb systems**: a quiet, exact institution engineering intelligence, bodies, materials, habitats and physical systems for humans and machines. Preserve clean strong contours, purposeful negative space, an overwhelmingly obsidian atmosphere and subordinate accurate typography. Treat future physics and mathematics as invented design premises, not scientific claims.
+The default brand is **bene systems**: a quiet, exact institution engineering intelligence, bodies, materials, habitats and physical systems for humans and machines. Preserve clean strong contours, purposeful negative space, an overwhelmingly obsidian atmosphere and subordinate accurate typography. Treat future physics and mathematics as invented design premises, not scientific claims. Keep core-logo work credible for a company landing page; change to objects or environments only when requested.
 
 ## 3. Plan the whole batch
 
 Use [the batch template](references/batch-template.md) to track indices 1 through N, prompts, inputs, outputs and reviews. Allocate a stable batch ID and slot IDs before rendering; maintain revision IDs and freeze the map of images actually displayed. Use [the curation helper](scripts/curate.mjs) when a Node runtime and durable project files are available; otherwise maintain equivalent records through the host's supported state mechanism.
 
 For radical exploration with N at least five, aim for roughly 60% substantially fresh constructions. Use the balance for controlled comparisons. For smaller batches, choose useful diversity. Refinement has no novelty quota. Vary disconnected parts, open versus enclosed voids, nesting, symmetry, aspect ratio, bridge position and rhythm; changes of title or material alone are not new constructions.
+
+For “different logos,” compare the planned silhouettes as a group before rendering. Spread ten directions across several construction families and contrasting wide, tall and compact forms. Include variation in enclosure, mass count, angular or curved rhythm, symmetry and scale. Ordered paths are one branch; avoid making every option parallel waves or clipped frames. Explicit refinement and selected invariants override this breadth check.
 
 For adaptive exploration with N at least five, aim for about 60% refinements of selected directions, 30% nearby constructions and 10% a credible alternative, reserving at least one alternative and keeping the total exactly N. For smaller batches, prioritise the selected comparison without forcing quotas. Carry specific learned constraints into each prompt and choose a comparison that can confirm or challenge one uncertain preference. Avoid converging every future image into a near-copy.
 
@@ -48,7 +56,7 @@ Before each render, specify:
 
 For easier human parsing, concentrate character in one memorable relationship. Start with substantial masses, legible separations and a clear silhouette. Use intrigue through proportion, alignment, asymmetry or negative space. Claims about recognition remain hypotheses unless a human study was actually performed.
 
-Default to one separate landscape image per direction: a large flat ivory emblem on obsidian, one restrained correctly spelled lowercase **beneb systems** wordmark, and a small flat duplicate with the same geometry and orientation. Keep generous darkness and comparable scale across a batch. Include no extra detail unless it serves the requested comparison.
+Default to one separate landscape image per direction: a large flat ivory emblem on obsidian, one restrained correctly spelled wordmark using the resolved brand text, and a small flat duplicate with the same geometry and orientation. Keep generous darkness and comparable visual weight across a batch without stretching wide or tall silhouettes. On logo-only cards, omit background fields unless requested or needed for a specific comparison. Include no extra detail unless it serves that comparison.
 
 ## 4. Generate, display and review
 

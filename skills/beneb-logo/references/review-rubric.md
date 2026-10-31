@@ -9,6 +9,7 @@ Inspect actual pixels before reading the title or interpreting the premise. Use 
 | Formal clarity | The specified separation, connection, nesting, cut or shared edge is visible. |
 | Human reading | The whole, part relationship and distinctive detail form a plausible hierarchy; competing gaps or contour treatments are identified. Treat this as visual judgment unless tested with viewers. |
 | Family relationship | The new construction is distinguishable while retaining the chosen principles; refinement preserves the selected identity. |
+| Batch diversity | A request for different logos produces several construction families and contrasting proportions, rather than a series of waves, frames or material changes. Do not apply this criterion against explicit refinement. |
 | Narrative usefulness | A visible relationship supports the stated interpretation. |
 | Presentation consistency | Type, scale, layout and material treatment allow a meaningful comparison. |
 | Practical performance | Use actual application evidence; otherwise mark small-size performance, vector equality and fabrication as not tested. |
@@ -17,16 +18,18 @@ Inspect actual pixels before reading the title or interpreting the premise. Use 
 
 ## Inspection sequence
 
-1. Count disconnected filled components.
-2. Distinguish enclosed voids from openings connected to the exterior.
+1. Count disconnected filled components in the image; do not copy the intended count from its prompt.
+2. Count enclosed voids and distinguish them from openings connected to the exterior.
 3. Trace each important recess, blind end and bridge.
 4. Examine outer contour, terminal shape, section weight and gap hierarchy.
 5. Compare the observed change with the parent and stated experiment.
-6. Check exact wordmark spelling and main/miniature correspondence.
+6. Check the resolved exact brand spelling, then compare main and miniature parts, cuts, openings, orientation and connections. A missing diagonal break or a closed passage is a changed mark, even if the small version looks plausible.
 7. Inspect neighbouring contours for collateral changes after an edit.
 8. Record a decision and the smallest useful next comparison.
 
 When material or chrome studies are included, compare their topology and openings with the flat emblem. A successful material treatment does not establish faithful geometry.
+
+When a field or landing-page application is shown, trace its relationship to the emblem's actual operation and keep text in a calm, readable region. Omit a field on logo-only cards unless it serves the requested comparison. Treat proposed ratios, colour tokens and motion timings as starting specifications, not properties measured from generated images. A miniature in a large board does not prove actual 24- or 32-pixel performance.
 
 ## Decision language
 
@@ -52,6 +55,7 @@ Evaluate a new lesson against supporting and contrary selection events across di
 | Observation | Useful response |
 | --- | --- |
 | New image repeats its parent | Change one observable relationship or reduce the parent's influence in a new construction brief. |
+| Different titles conceal the same silhouette | Change construction family, proportion, enclosure or component relationship; preserve the shared presentation. |
 | Intended nesting becomes adjacency | Name the surrounding sides and required clearance. |
 | A bridge joins the wrong region | Specify the exact joining endpoint and the opening that must remain. |
 | Repetition or alignment fails | Identify each unit's direction or the precise edges meant to align. |

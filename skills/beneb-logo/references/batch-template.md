@@ -18,6 +18,7 @@ Run:
 Collection namespace:
 Stable batch ID:
 User request:
+Resolved exact brand text and source:
 Mode and focus:
 Requested final count N:
 Count source: explicit request / unfinished batch / active learning-loop continuation / default five
@@ -43,6 +44,8 @@ Within an explicit active selection-and-learning loop, “continue” reuses tha
 | Parent | Actual accessible asset, or no parent |
 | Hypothesis | What might improve and why |
 | Primary change | One observable geometric operation |
+| Family and silhouette | Construction family; wide, tall or compact proportion; angular or curved rhythm |
+| Meaningful tension | The single relationship made visible |
 | Invariants | Selected geometry, palette, type and framing |
 | Target construction | Part count, voids, openings, connections, contour and terminals |
 | Reference roles | Distinguish edit target, geometry ancestor and presentation reference |
@@ -50,6 +53,8 @@ Within an explicit active selection-and-learning loop, “continue” reuses tha
 | Exact prompt | The complete text submitted to the generator |
 
 Vary construction in radical exploration: component count, enclosure, nesting, bridge position, symmetry, proportion and rhythm. In refinement, preserve the selected identity and named scope. When combining refinements, inspect the preceding results first and carry forward only useful changes.
+
+For a request to explore different logos, review the whole plan using [the construction catalog](construction-catalog.md). Ten directions should span several families, with contrasting proportions, open and enclosed spaces, one and several masses, and different contour rhythms. Identify repetitive clusters before rendering. Do not force a novelty quota onto controlled refinement or stretch silhouettes to equal dimensions. A common presentation makes geometric differences easier to compare; a repeated background field can obscure them.
 
 After selections, use [the learning loop](selection-learning.md) to plan an adaptive continuation when no explicit mode overrides it. Allocate refinements, nearby branches and an alternative to total exactly N. Keep the user's evidence separate from assistant hypotheses about why an image was chosen.
 
@@ -69,6 +74,7 @@ Dimensions and format:
 Byte size and digest: [record only when available or measured]
 Observed geometry:
 Departure from target:
+Observed family and silhouette:
 Wordmark spelling:
 Main and miniature correspondence:
 Decision: retain / refine / park / explore further

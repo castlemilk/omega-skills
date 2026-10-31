@@ -1,6 +1,6 @@
 # Omega skills
 
-Portable agent skills, starting with **beneb-logo**: counted batches of original logo concepts and visual identity material for **beneb systems**.
+Portable agent skills, starting with **beneb-logo**: counted batches of original logo concepts and visual identity material for **bene systems**.
 
 ## Install beneb-logo
 
@@ -45,8 +45,10 @@ $beneb-logo 10
 Natural language also works:
 
 ```text
-Generate ten separate beneb systems logo concepts.
+Generate ten separate bene systems logo concepts.
 ```
+
+The installed identifier remains **beneb-logo**. The skill also interprets `/beneb-logos` as a conversational alias; native shortcut menus depend on the host. The default rendered name is **bene systems**, and a later explicit brand correction takes precedence over saved defaults and reference-image text.
 
 For refinement, supply the selected image and the property to explore:
 
@@ -90,6 +92,8 @@ Project state is private to the configured destination and survives skill update
 
 - A year-3000 creative brief: obsidian, mathematical precision, alien engineering and quiet institutional authority.
 - Clean strong contours, deliberate negative space and geometry that humans can parse.
+- A [design language](skills/beneb-logo/references/design-language.md) covering geometric operations, typography, proposed palette and proportions, derived fields, landing-page composition and restrained motion.
+- A [construction catalog](skills/beneb-logo/references/construction-catalog.md) and batch-level diversity check for exploring different silhouettes without repeating one wave or frame.
 - Separate workflows for radical exploration, adaptive continuation and controlled refinement.
 - A counted-batch contract: exactly N selected presentations, with corrections tracked separately.
 - Stable numbered galleries, explicit selection/rejection/comparison, and reversible learning.

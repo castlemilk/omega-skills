@@ -2,7 +2,7 @@
   "name": "omega-skills",
   "version": "1.1.0",
   "private": true,
-  "description": "Portable agent skills, including the beneb systems logo workflow",
+  "description": "Portable agent skills, including the bene systems logo workflow",
   "type": "module",
   "engines": {
     "node": ">=22.20.0"
