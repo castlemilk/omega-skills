@@ -1,0 +1,4 @@
+interface:
+  display_name: "beneb logo"
+  short_description: "Create and refine beneb systems logo image batches"
+  default_prompt: "Use $beneb-logo to generate five separate beneb systems logo presentations."
