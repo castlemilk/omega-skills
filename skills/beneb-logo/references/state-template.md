@@ -18,9 +18,11 @@ Apply [numbered curation and learning](selection-learning.md). The profile is a 
 
 ## Current brief
 
-- Brand: beneb systems
+- Brand: bene systems
+- Brand-text source: default; replace with the latest explicit correction or current project value
 - Mode: unset
 - Focus: core logos
+- Active exploration scope: unset; preserve an explicit request for different constructions through ordinary continuation
 - Era: year 3000
 - Active count: unset
 - Count source: unset

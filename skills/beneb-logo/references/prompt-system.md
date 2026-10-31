@@ -10,6 +10,8 @@
 
 Use the master to organise a batch. Send one focused construction brief to each render, with only the relevant output mode. Preserve the exact submitted prompt and actual image inputs.
 
+Resolve brand text before copying a template: latest explicit instruction, current project state, then **bene systems**. Replace every default brand occurrence consistently. The legacy skill name `beneb-logo` and conversational alias `/beneb-logos` do not add a letter to the wordmark.
+
 ## Run controls
 
 Resolve action intent before numbers. Selection and comparison identifiers are not batch counts. Resolve **N** from the current request, an unfinished active batch, or the prior batch size when explicitly continuing an active learning loop. Accept positive whole numbers, including unambiguous numbers written in words. Use five only when no explicit or active count exists. Do not treat numbers describing an era or geometry as the batch count, or a quoted shortcut example as an instruction to generate.
@@ -20,10 +22,12 @@ Use **refinement** when the user asks to preserve and refine a mark; change only
 
 Read the current taste-profile revision before drafting each brief. Include only relevant active constraints. Identify the supporting selection or explicit reason for an inherited property, and distinguish a tentative preference under test from a property to preserve. Keep gallery IDs in captions and records rather than in the artwork prompt.
 
+Carry an explicit request for different logos into its continuation. General approval does not identify a refinement parent. Use [the construction catalog](construction-catalog.md) to compare silhouette and construction coverage before rendering; use [the design language](design-language.md) for a shared level of precision. A new name, surface or number of parallel waves is insufficient divergence.
+
 ## Master brief
 
 ```text
-Create original visual identity artwork for "beneb systems".
+Create original visual identity artwork for "bene systems".
 
 Focus: [core logos / one extension mode]
 Era: year 3000
@@ -31,6 +35,7 @@ Mode: [radical exploration / adaptive / refinement]
 Images: [N] separate presentations
 Palette: obsidian and near-black with flat ivory geometry
 Geometry: clean strong contours, substantial masses, deliberate negative space
+Application: credible company identity; keep logo focus unless changed by the user
 Symmetry: [chosen rule, or controlled asymmetry]
 Reference roles: [geometry ancestors, presentation references, edit targets, or none]
 
@@ -52,9 +57,11 @@ Establish a memorable silhouette before adding detail.
 
 For core logos, create one separate landscape presentation per direction:
 one large flat ivory emblem on obsidian, a small correctly spelled
-lowercase "beneb systems" wordmark, and a small flat duplicate preserving
+lowercase "bene systems" wordmark, and a small flat duplicate preserving
 the parts, openings, cuts and orientation. Keep generous darkness and
 comparable type, layout and visual weight across the batch.
+Keep background fields out of logo-only cards unless requested. When a
+derived field is useful, construct it from the emblem's same operation.
 
 Avoid stock space or AI icons, literal historical symbols, equations,
 fake microtext, circuit wallpaper, decorative HUDs, repeated stacked
@@ -73,9 +80,11 @@ Specify the following before each call:
 ```text
 Use case: logo-brand [adapt for other modes].
 Output: one separate presentation.
-Brand character: beneb systems; year 3000; quiet institutional authority.
+Brand character: bene systems; year 3000; quiet institutional authority.
 Organising premise: [one sentence].
+Meaningful tension: [one relationship, such as continuity and interruption].
 Visible construction: [the actual relationship to render].
+Construction family and silhouette class: [for batch-level variety].
 Disconnected filled parts: [count and relative sizes].
 Enclosed voids: [count and location].
 Open recesses: [entry side, route and blind end; or none].
@@ -87,7 +96,7 @@ Learned constraint and evidence: [active explicit or supported preference; or no
 Tentative preference to test: [one uncertain inference; or none].
 Actual image inputs: [each supplied image and its role; or none].
 Presentation: [one mode; fixed layout when comparing geometry].
-Exact text: "beneb systems" [plus only explicitly requested text].
+Exact text: "bene systems" [plus only explicitly requested text].
 Failure to prevent: [one concrete risk].
 Generate one image.
 ```
@@ -95,6 +104,8 @@ Generate one image.
 Describe spatial relationships directly. Use approximate dimensions only when needed. Identify exact edges for alignment and exact endpoints for bridges; “make it more futuristic” is not a construction instruction.
 
 For a new branch, use a new construction. For an edit, inspect and attach the actual target through the supported host mechanism. An ancestor inspected during planning is not an image input unless it was supplied to the generator.
+
+When supplying a presentation reference for a structurally new logo, state that it controls palette, type and presentation only. Describe the new silhouette explicitly. When supplying a geometry ancestor for refinement, identify the parts, voids and cuts to preserve. These roles prevent an unrelated new brief from collapsing back into the reference's wave or enclosure.
 
 ## Targeted correction
 
@@ -116,8 +127,8 @@ Reinspect after editing, including neighbouring contours. Keep the earlier versi
 
 | Focus | Construction and deliverable |
 | --- | --- |
-| Pattern | Derive a field from the rule. Vary spacing, density, orientation or state while preserving one relationship. Use a few scale levels. Verify edge continuity separately when seamless tiling is requested. |
-| Motion concept | Show a short sequence, such as four states, of one recognisable transformation. Name the invariant. A static storyboard is not a finished animation. One storyboard image counts as one presentation unless the user specifies otherwise. |
+| Pattern | Derive a field from the rule. Vary spacing, density, orientation or state while preserving one relationship. For a path family, a three- or four-path mark can expand into 24–48 finer paths; this is a starting range, not a requirement for every family. Verify edge continuity separately when seamless tiling is requested. |
+| Motion concept | Show a short sequence, such as four states, of one recognisable transformation, varying one parameter. Name the invariant. Use the timing and static-alternative proposals in the design language when prototyping actual motion. A static storyboard is not a finished animation. One storyboard image counts as one presentation unless the user specifies otherwise. |
 | Identity suite | Create distinct related silhouettes for different institutional domains. Share a construction grammar while varying the operation; avoid scaled copies with decorations. |
 | Engineered object or material | Translate the rule into the object's shell, cavity, seam, joint or assembly. Give it one legible function and one unfamiliar structural relationship. Derive restrained surfaces and depth from that geometry. |
 | Environment | Organise mass, thresholds, passages and human/machine scale through the rule. Keep one spatial hierarchy and a restrained scale cue. |

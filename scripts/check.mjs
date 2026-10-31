@@ -21,6 +21,8 @@ const required = [
   'SKILL.md',
   'agents/openai.yaml',
   'references/aesthetic-system.md',
+  'references/design-language.md',
+  'references/construction-catalog.md',
   'references/prompt-system.md',
   'references/batch-template.md',
   'references/review-rubric.md',

@@ -2,7 +2,9 @@
 
 ## Brand premise
 
-Create original identity work for **beneb systems**, an institution imagined in the year **3000** that engineers intelligence, bodies, materials, habitats and physical systems for humans and machines. Suggest abundant capability through calm structural decisions, precision and quiet institutional authority.
+Create original identity work for **bene systems**, an institution imagined in the year **3000** that engineers intelligence, bodies, materials, habitats and physical systems for humans and machines. Suggest abundant capability through calm structural decisions, precision and quiet institutional authority.
+
+Use the latest explicitly supplied brand text when it differs from this default. Keep the company's identity credible on a real landing page. Express the distant future through relationships between forms; reserve literal devices, bodies and environments for those requested output modes.
 
 Use speculative physics, mathematics and engineered biology as creative premises. A rendered shape is not evidence of a scientific discovery.
 
@@ -14,9 +16,11 @@ Use speculative physics, mathematics and engineered biology as creative premises
 - Concentrate each direction in one governing geometric rule and one meaningful tension: connection, separation, nesting, interruption, reciprocity, scale or a shared boundary.
 - Use ancient monumental proportion, geometric meanders, protein packing, cellular boundaries, bone structures, cybernetic articulation and algorithmic organisation as abstract construction sources.
 - Explore symmetry as a rule, including reflection or rotation; allow deliberate asymmetry. Do not force a B monogram.
-- Keep generous darkness and subordinate typography. Spell the lowercase wordmark exactly **beneb systems**.
+- Keep generous darkness and subordinate readable typography. Spell the default lowercase wordmark exactly **bene systems**, or use the user's resolved exact brand text.
 
 For a core-logo presentation, show one large emblem, one restrained wordmark and one small flat duplicate with the same principal geometry. Add another purposeful detail only when requested. Keep layout, approximate visual weight and type treatment comparable when geometry is the experiment.
+
+Use [the design language](design-language.md) for construction proposals, typography, colour and derived fields. Use [the construction catalog](construction-catalog.md) to move among path, boundary, mass, reciprocal, nested and typographic families. Preserve a shared discipline without forcing a shared silhouette.
 
 ## Human reading and geometric intrigue
 
