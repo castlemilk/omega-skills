@@ -65,3 +65,4 @@ Test a fresh cookie jar and the existing connector independently, including inte
 
 After an authorized repair, verify the exact served build and a newly initiated read-only connection. Direct the user to start from their client rather than reuse an old authorization URL. Request only the configured connector/endpoint and sanitized failure time if troubleshooting continues, never another token-bearing URL.
 
+For end-to-end verification, initiate authorization from the actual client so that its state and PKCE verifier remain paired with the callback. A manually composed authorization request or an authorization redirect alone does not prove a completed connection. Verify an authenticated read through that newly connected client after callback completion. Record fresh-client and existing-client reconnect results separately from deployed metadata and build identity.
