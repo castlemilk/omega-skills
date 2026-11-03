@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gamma MCP Connect"
+  short_description: "Connect and verify the right Gamma MCP service"
+  default_prompt: "Use $gamma-mcp-connect to verify or restore my Gamma MCP connection and report exactly which access works."
