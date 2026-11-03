@@ -52,3 +52,16 @@ Before writing diagnostic files, use an owner-only directory and restrictive cre
 Keep sanitized operation, status, time and error detail. If raw diagnostics must be retained under existing authority, keep them restricted and outside shared artifacts. Do not create extra hosting, jobs or clients to conceal a blocked path, or move a private image library behind external OAuth without a separately approved identity and data-access design.
 
 Report the useful result first: the exact capability restored or remaining blocker, what was tested, and what remains unverified. Distinguish denied, pending, uncertain and failed actions. Installing this skill, discovering a tool, and completing a connection UI are not by themselves proof that the requested operation works.
+
+## Fresh connections, hostname changes, and cross-client failures
+
+An already connected client can keep reading while a new login fails. Verify fresh onboarding separately from an existing token/session. Record the exact client, connector, endpoint, issuer and resource without retaining authorization URLs or token hints.
+
+When an authorization screen says the request could not be verified, do not assume an expired token is the cause. Inspect safe server status/reason evidence and compare the browser origin with the server's exact trusted origin. Verify whether an older hostname redirects to a newer one. A platform alias does not migrate OAuth issuer, audience, client registration, Google callback or cookie scope automatically.
+
+Never fix a mismatch by removing Origin validation, accepting arbitrary subdomains, forwarding a forged Origin, widening redirect callbacks, or accepting every issuer/audience. A canonical-host migration needs one internally consistent configuration for browser origin, issuer, resource, discovery/JWKS endpoints and provider callback. Preserve PKCE, signed continuations, identity and callback allowlists; obtain required approval for authentication-trust changes. Explain that existing tokens may be rejected and clients may need fresh consent. Do not promise refresh compatibility without verification.
+
+Test a fresh cookie jar and the existing connector independently, including interrupted login, denied consent, expired/tampered continuations, wrong origin/resource/audience and unknown callbacks. Local OAuth harnesses must enforce cookie host/path/Secure rules; a single global cookie jar can falsely certify cross-host login. Synthetic local provider tests are not evidence of real Google consent or another user's machine working.
+
+After an authorized repair, verify the exact served build and a newly initiated read-only connection. Direct the user to start from their client rather than reuse an old authorization URL. Request only the configured connector/endpoint and sanitized failure time if troubleshooting continues, never another token-bearing URL.
+
