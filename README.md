@@ -1,6 +1,21 @@
 # Omega skills
 
-Portable agent skills, starting with **beneb-logo**: counted batches of original logo concepts and visual identity material for **beneb systems**.
+Portable agent skills:
+
+- **[beneb-logo](skills/beneb-logo/SKILL.md):** counted batches of original logo concepts and visual identity material for **beneb systems**.
+- **[gamma-mcp-connect](skills/gamma-mcp-connect/SKILL.md):** connect, reconnect and diagnose Gamma Art Studio / Nocturne MCP access without confusing public catalogue reads with private-library access.
+
+## Install gamma-mcp-connect
+
+```sh
+npx skills add castlemilk/omega-skills --skill gamma-mcp-connect
+```
+
+Then ask your agent to use `gamma-mcp-connect` to verify or restore your Gamma MCP connection. In Codex, use `$gamma-mcp-connect`.
+
+The skill guides discovery of the exact connector, a minimal read, secure reconnection and scoped verification. It includes native CLI guidance only when that client is actually needed. It does not install an MCP server, provide credentials or grant access. Your host must expose the supported Gamma connector and connection UI, or the native client you requested. This is for Gamma Art Studio / Nocturne, not the similarly named presentation product.
+
+Review [the complete skill](skills/gamma-mcp-connect/SKILL.md) before installing. The installer requirements and agent/global options below apply to either skill.
 
 ## Install beneb-logo
 
@@ -106,7 +121,7 @@ npm test
 npm run test:install
 ```
 
-`npm test` checks skill metadata, bundled links and the portable payload, then exercises curation state transitions, frozen revision references, feedback retry handling, undo and state protection. `npm run test:install` uses `skills@1.7.4` to discover and install the skill into an isolated temporary project for Codex and Claude Code, then compares the installed files with the source. It does not install globally. The smoke test requires network access on its first run.
+`npm test` checks both skills' metadata, bundled links and portable payloads, then exercises logo curation state transitions, frozen revision references, feedback retry handling, undo and state protection. `npm run test:install` uses `skills@1.7.4` to discover and install both skills into an isolated temporary project for Codex and Claude Code, then compares the installed files with the source. It does not install globally or connect to Gamma. The smoke test requires network access on its first run.
 
 To test a remote source after publishing:
 
