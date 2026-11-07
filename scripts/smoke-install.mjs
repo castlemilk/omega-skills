@@ -9,9 +9,10 @@ import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const source = process.argv[2] ?? root;
 const installer = 'skills@1.7.4';
+const skillNames = ['beneb-logo', 'discover-ai-business-opportunities'];
 const npmCli = process.env.npm_execpath;
 assert(npmCli, 'Run this smoke test with npm run test:install');
-const project = await mkdtemp(join(tmpdir(), 'beneb-logo-install-'));
+const project = await mkdtemp(join(tmpdir(), 'omega-skills-install-'));
 
 function run(args) {
   // npm exec is the npx execution route. Calling its JavaScript entry point
@@ -51,20 +52,25 @@ async function payload(directory) {
 
 try {
   const listed = run(['add', source, '--list']);
-  assert.match(listed, /beneb-logo/, 'The CLI did not discover beneb-logo');
-  console.log(`PASS: ${installer} discovers beneb-logo from ${source}`);
+  for (const skillName of skillNames) {
+    assert(listed.includes(skillName), `The CLI did not discover ${skillName}`);
+    console.log(`PASS: ${installer} discovers ${skillName} from ${source}`);
+  }
 
-  run(['add', source, '--skill', 'beneb-logo', '--agent', 'codex', 'claude-code', '--copy', '--yes']);
-  const expected = await payload(join(root, 'skills', 'beneb-logo'));
-  const installedLocations = [
-    ['Codex', join(project, '.agents', 'skills', 'beneb-logo')],
-    ['Claude Code', join(project, '.claude', 'skills', 'beneb-logo')],
-  ];
-  for (const [agent, location] of installedLocations) {
-    assert.deepEqual(await payload(location), expected, `${agent} payload differs from the source`);
-    console.log(`PASS: ${agent} installation contains all ${Object.keys(expected).length} unchanged skill files`);
+  run(['add', source, '--skill', ...skillNames, '--agent', 'codex', 'claude-code', '--copy', '--yes']);
+  for (const skillName of skillNames) {
+    const expected = await payload(join(root, 'skills', skillName));
+    const installedLocations = [
+      ['Codex', join(project, '.agents', 'skills', skillName)],
+      ['Claude Code', join(project, '.claude', 'skills', skillName)],
+    ];
+    for (const [agent, location] of installedLocations) {
+      assert.deepEqual(await payload(location), expected, `${agent} ${skillName} payload differs from the source`);
+      console.log(`PASS: ${agent} ${skillName} installation contains all ${Object.keys(expected).length} unchanged skill files`);
+    }
   }
   console.log('PASS: isolated project installation; no global skill installation requested.');
 } finally {
   await rm(project, { recursive: true, force: true });
 }
+

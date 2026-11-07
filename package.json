@@ -8,7 +8,7 @@
     "node": ">=22.20.0"
   },
   "scripts": {
-    "test": "node scripts/check.mjs && node tests/curate.test.mjs",
+    "test": "node scripts/check.mjs && node tests/curate.test.mjs && node scripts/check-business-opportunities.mjs && node tests/business-opportunities.test.mjs",
     "test:install": "node scripts/smoke-install.mjs"
   }
 }

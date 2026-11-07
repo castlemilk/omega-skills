@@ -1,6 +1,25 @@
 # Omega skills
 
-Portable agent skills, starting with **beneb-logo**: counted batches of original logo concepts and visual identity material for **beneb systems**.
+Portable agent skills:
+
+- **[beneb-logo](skills/beneb-logo/SKILL.md):** counted batches of original logo concepts and visual identity material for **beneb systems**.
+- **[discover-ai-business-opportunities](skills/discover-ai-business-opportunities/SKILL.md):** recurring evidence-backed business opportunity discovery and evaluation.
+
+## Install discover-ai-business-opportunities
+
+Research evidence-backed business ideas, compare them with prior suggestions, and evaluate demand, competition, economics and resilience as AI improves.
+
+```sh
+npx skills add castlemilk/omega-skills --skill discover-ai-business-opportunities
+```
+
+In Codex, ask `$discover-ai-business-opportunities` to run a discovery cycle or evaluate a venture hypothesis. The workflow normally suggests one strong idea with sources, uncertainties and a cheap next test. It can stay quiet on a scheduled run when no finding passes the evidence bar.
+
+The host needs web search/read access for current research and durable private storage for the ongoing ledger. The skill does **not** create a schedule by itself: use the host's scheduler to run it daily, with the same private state destination and notification preferences. Hosts without live research can analyze supplied evidence, clearly labelled as captured rather than current.
+
+The bundle preserves 67 historical public-source research records, including exclusions and limitations. It does not include personal conversation links, user feedback, a runtime ledger or credentials. Keep those outside this repository and outside the installed skill. Installing it grants no authority to contact customers, spend money, build or deploy products.
+
+Review [SKILL.md](skills/discover-ai-business-opportunities/SKILL.md), [evidence criteria](skills/discover-ai-business-opportunities/references/evaluation.md) and [continuity guidance](skills/discover-ai-business-opportunities/references/continuity.md). The installer requirements and agent/global options below apply to either skill.
 
 ## Install beneb-logo
 
@@ -106,7 +125,7 @@ npm test
 npm run test:install
 ```
 
-`npm test` checks skill metadata, bundled links and the portable payload, then exercises curation state transitions, frozen revision references, feedback retry handling, undo and state protection. `npm run test:install` uses `skills@1.7.4` to discover and install the skill into an isolated temporary project for Codex and Claude Code, then compares the installed files with the source. It does not install globally. The smoke test requires network access on its first run.
+`npm test` validates both portable bundles and exercises logo curation state transitions, frozen revisions, feedback retries, undo and state protection. Opportunity payload tests also check source-row integrity and reject private identifiers, credential-like material, machine paths and accidentally bundled runtime state. `npm run test:install` uses `skills@1.7.4` to discover and install both skills into an isolated temporary project for Codex and Claude Code, then compares the installed files byte-for-byte with the source. It does not install globally. The smoke test requires network access on its first run.
 
 To test a remote source after publishing:
 
