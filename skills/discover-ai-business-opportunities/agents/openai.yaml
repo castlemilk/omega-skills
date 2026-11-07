@@ -1,0 +1,4 @@
+interface:
+  display_name: "Discover AI Business Opportunities"
+  short_description: "Find evidence-backed businesses as AI reshapes work"
+  default_prompt: "Use $discover-ai-business-opportunities to find and evaluate fresh business opportunities, compare them with previous ideas, and suggest only the strongest actionable findings."
