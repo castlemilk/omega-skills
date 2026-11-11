@@ -5,6 +5,30 @@ Portable agent skills:
 - **[beneb-logo](skills/beneb-logo/SKILL.md):** counted batches of original logo concepts and visual identity material for **beneb systems**.
 - **[discover-ai-business-opportunities](skills/discover-ai-business-opportunities/SKILL.md):** recurring evidence-backed business opportunity discovery and evaluation.
 
+- **[futurist-research](skills/futurist-research/SKILL.md):** physics-constrained possibility exploration, competing futures, value capture and reflective forecasting.
+
+## Install futurist-research
+
+Explore what new technologies make possible before narrowing to a product. Distinguish physical limits from engineering, economic and institutional constraints; combine multiple evidence signals; test who captures value when competitors have the same capabilities.
+
+```sh
+npx skills add castlemilk/omega-skills --skill futurist-research
+```
+
+In Codex, ask `$futurist-research` to explore a future, deepen a mechanism, challenge a thesis, or reflect on previous findings. These are natural-language modes, not additional installer commands. For example:
+
+```text
+Use $futurist-research to explore which physical activities become economical
+as intelligence becomes abundant. Stay at the system level before choosing
+products, challenge integration as a moat, and preserve competing scenarios.
+```
+
+The skill includes a [possibility method](skills/futurist-research/references/method.md), [evidence standards](skills/futurist-research/references/evidence.md), [private record templates and learning protocol](skills/futurist-research/references/records-and-learning.md), and [eight behavioral regression cases](skills/futurist-research/references/regression-cases.md). Feedback is classified as preference, factual correction, hypothesis, method critique or observed outcome. Original forecasts are preserved; agreement is not evidence, and better process is not proof of better predictive accuracy.
+
+Live research and durable private storage are host capabilities, not provided by this bundle. Keep forecast ledgers and discussion feedback outside the public repository and installed skill directory. Installation does not retrain a model, create a schedule or install the skill on other machines. The existing `discover-ai-business-opportunities` skill remains a separate, optional downstream workflow for evaluating current buyers and ventures.
+
+The installer requirements and agent/global options below apply to all three skills. Run `npm run test:futurist` for this bundle's structural checks. Behavioral regression cases require separate review; they are not executed by that command.
+
 ## Install discover-ai-business-opportunities
 
 Research evidence-backed business ideas, compare them with prior suggestions, and evaluate demand, competition, economics and resilience as AI improves.
@@ -19,7 +43,7 @@ The host needs web search/read access for current research and durable private s
 
 The bundle preserves 67 historical public-source research records, including exclusions and limitations. It does not include personal conversation links, user feedback, a runtime ledger or credentials. Keep those outside this repository and outside the installed skill. Installing it grants no authority to contact customers, spend money, build or deploy products.
 
-Review [SKILL.md](skills/discover-ai-business-opportunities/SKILL.md), [evidence criteria](skills/discover-ai-business-opportunities/references/evaluation.md) and [continuity guidance](skills/discover-ai-business-opportunities/references/continuity.md). The installer requirements and agent/global options below apply to either skill.
+Review [SKILL.md](skills/discover-ai-business-opportunities/SKILL.md), [evidence criteria](skills/discover-ai-business-opportunities/references/evaluation.md) and [continuity guidance](skills/discover-ai-business-opportunities/references/continuity.md). The installer requirements and agent/global options below apply to all three skills.
 
 ## Install beneb-logo
 
@@ -125,7 +149,7 @@ npm test
 npm run test:install
 ```
 
-`npm test` validates both portable bundles and exercises logo curation state transitions, frozen revisions, feedback retries, undo and state protection. Opportunity payload tests also check source-row integrity and reject private identifiers, credential-like material, machine paths and accidentally bundled runtime state. `npm run test:install` uses `skills@1.7.4` to discover and install both skills into an isolated temporary project for Codex and Claude Code, then compares the installed files byte-for-byte with the source. It does not install globally. The smoke test requires network access on its first run.
+`npm test` validates all three portable bundles and exercises logo curation state transitions, frozen revisions, feedback retries, undo and state protection. Futurist tests check discovery metadata, internal references, privacy guards and record contracts; they do not measure forecasting accuracy. Opportunity payload tests also check source-row integrity and reject private identifiers, credential-like material, machine paths and accidentally bundled runtime state. `npm run test:install` uses `skills@1.7.4` to discover and install all three skills into an isolated temporary project for Codex and Claude Code, then compares the installed files byte-for-byte with the source. It does not install globally. The smoke test requires network access on its first run.
 
 To test a remote source after publishing:
 

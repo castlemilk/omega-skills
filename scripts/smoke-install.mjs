@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const source = process.argv[2] ?? root;
 const installer = 'skills@1.7.4';
-const skillNames = ['beneb-logo', 'discover-ai-business-opportunities'];
+const skillNames = ['beneb-logo', 'discover-ai-business-opportunities', 'futurist-research'];
 const npmCli = process.env.npm_execpath;
 assert(npmCli, 'Run this smoke test with npm run test:install');
 const project = await mkdtemp(join(tmpdir(), 'omega-skills-install-'));

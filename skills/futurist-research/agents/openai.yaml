@@ -1,0 +1,4 @@
+interface:
+  display_name: "Futurist Research"
+  short_description: "Explore physical possibilities and future value capture"
+  default_prompt: "Use $futurist-research to explore the requested future at the system level, test capability thresholds and competing scenarios, and update the private forecast and reflection record."
