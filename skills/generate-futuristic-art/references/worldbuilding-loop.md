@@ -97,6 +97,8 @@ Choose two or three consequences. Give at least one a visual expression beyond d
 | Materials continuously repair themselves | Smooth renewed surfaces contrast with deliberately preserved historical scars |
 | A defense instrument removes possibilities | Power appears through interrupted shadows, missing volumes or changed relationships rather than a bigger cannon |
 
+For an organic-techno brief, add one functional bridge to the causal chain: identify the biological process, technological role, convergence stage and visible shared structure. Make growth, circulation, sensing, repair or adaptation materially change the design. Use the [convergence method](concept-space.md#convergent-organic-technology); avoid relying on an animal silhouette, decorative vines or a technological label to establish fusion.
+
 Add one trace of history: an earlier construction method, a voluntarily retained scar, a former ecosystem, a ritual repeated through geological ages, or a structure whose current use differs from its origin. Do not equate age with rust. Indefinite maintenance, renewal, burial, overgrowth and cultural reinterpretation provide different histories.
 
 Tension is optional. If useful, derive it from incompatible aspirations, consent, belonging, interpretation, unfamiliar life, competing aesthetics, the meaning of memory or the right to remain unchanged. A celebration or successful act of care can carry the scene. Do not force conflict into a request for serenity.

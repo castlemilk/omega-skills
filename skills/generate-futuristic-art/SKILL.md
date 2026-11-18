@@ -1,6 +1,6 @@
 ---
 name: generate-futuristic-art
-description: Invent original monumental science-fiction worlds, civilizations, ships, monoliths, planetary and stellar structures, propulsion and fictional weapons, then generate their artwork. Use for creative worldbuilding, unlimited-energy speculation, exploratory visual series, reference-driven image generation, intricate art direction and prompts. Run a bounded concept-to-image loop with a reference-grounded theme gate before diversity and rendering. Preserve epic scale, convincing spatial construction, atmospheric depth and selective material detail while inventing varied worlds. Respect specific briefs and edits.
+description: Invent original monumental science-fiction worlds, civilizations, ships, monoliths, planetary and stellar structures, propulsion and fictional weapons, then generate their artwork. Use for creative worldbuilding, organic-techno fusion, unlimited-energy speculation, exploratory visual series, reference-driven image generation, intricate art direction and prompts. Run a bounded concept-to-image loop with a reference-grounded theme gate before diversity and rendering. Preserve epic scale, convincing spatial construction, atmospheric depth and selective material detail while inventing varied worlds. Respect specific briefs and edits.
 ---
 
 # Futuristic Artwork
@@ -75,6 +75,8 @@ For reference-driven work, select a few relevant images and name the transferabl
 
 Combine traits when their geometry and light remain coherent. Give each image a dominant emotional register; contrast registers across an exploratory set. Treat a dark obsidian or brand-specific direction as an optional adaptation when requested, not the default palette. Avoid automatically translating advanced technology into steel plates, exposed pipes, ladders, human windows or glowing strips.
 
+For **organic-techno fusion**, develop the bridges between functions in [concept-space.md](references/concept-space.md#convergent-organic-technology). Choose a biological process and a technological role that become one system: growth and fabrication, circulation and energy transport, sensing and computation, healing and maintenance, ecology and infrastructure. Describe the resulting material continuity, geometry and visible behavior. Show how the fusion changes the structure's operation or silhouette; vegetation on machinery and animal-shaped hulls alone do not establish it. Vary the maturity and material language of convergence across worlds, while retaining the monumental theme. Treat this as a fictional direction, not an inevitable technological forecast.
+
 ## 4. Design from large form to small detail
 
 1. **State one visual idea.** Examples: a weather front splitting around an inhabited monolith; a membrane ship unfolding around a protected ecosystem; a tiny craft crossing a deep rectangular void. Make the relationship express the selected world's purpose or event. Avoid stacking unrelated spectacles.
@@ -142,6 +144,7 @@ Inspect the actual generated result against the references and brief:
 - **Theme:** Does the image itself read as the requested monumental science-fiction direction before its caption is known? Check tangible mass or environmental structure, depth, scale and material character. A toy-like plaza or diagrammatic abstraction is a thematic failure even if the fictional premise is sophisticated.
 - **Thumbnail:** Can the subject, focal point, large silhouette, depth, and main color relationship be read immediately?
 - **Close view:** Do ribs follow the form, panels join convincingly, repeated components have consistent rhythm, materials separate, and fine marks concentrate where intended? Check for unintended text, fused components, competing focal lights, and noisy texture.
+- **Fusion, when requested:** Does growth, structure, circulation, sensing or repair visibly serve a technological role? Check the continuity or integration of those systems; distinguish visible features from fictional capabilities that the image cannot prove.
 - **World and story:** Are the chosen premise's visible consequences present? Does the image convey its event or relationship? Did the generator replace an unfamiliar civilization with ordinary human industrial scenery? Keep unseen lore as intended lore, not verified visual evidence.
 
 When a premise depends on a particular count, orientation, connection or spatial paradox, inspect that feature directly. A prompt naming impossible geometry does not establish that the output depicts it. Keep an approximate visual interpretation distinct from the fuller fictional premise.

@@ -6,6 +6,7 @@
 - [Industrial reference-style template](#industrial-reference-style-template)
 - [Expanded prompt template](#expanded-prompt-template)
 - [World-first prompt bridge](#world-first-prompt-bridge)
+- [Organic-techno fusion prompt](#organic-techno-fusion-prompt)
 - [1. Monumental aperture](#1-monumental-aperture)
 - [2. Warm industrial harbor](#2-warm-industrial-harbor)
 - [3. Lucid pastel station](#3-lucid-pastel-station)
@@ -65,6 +66,14 @@ Keep [user invariants]; omit lore that has no visible role.
 ```
 
 Keep the full world card separate. Do not paste a civilization's entire history into the image prompt. For a new-world set, compare purpose, mechanism and silhouette before rendering; for an established-world set, preserve canon and vary events and viewpoints.
+
+## Organic-techno fusion prompt
+
+Use when the brief asks for biological and technological convergence. Develop the shared function before selecting materials; retain the monumental direction unless the user requests another scale.
+
+> Create an original monumental science-fiction artwork of [ship, structure, monolith or planetary work] during [one event]. In this world, [biological process] and [technological role] have become [one shared system]. Make that convergence visible at [specific location]: [material or structural organization] continues through [junction or specialized region] into [technological form], following [load, transport, sensing or growth relationship]. Show [a second visible consequence]. Compose from [viewpoint] with [nested scale and depth evidence]. Use [distinct materials, palette and motivated light], preserving broad quiet masses and precise local detail. Keep [user invariants]. The living and manufactured qualities should belong to the same construction.
+
+For mature seamless convergence, replace an explicit interface with a specialized region or visible behavior. Use original severe, mineral, membrane, crystalline or geological forms as readily as soft ones. Avoid decorative vegetation on an otherwise unchanged machine, arbitrary flesh-metal halves, and repeating one shell-like silhouette. Keep unpictured capabilities in the scene card.
 
 ## 1. Monumental aperture
 

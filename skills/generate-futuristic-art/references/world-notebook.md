@@ -41,6 +41,10 @@ Visible consequences: [two or three concrete features]
 Theme evidence: [science-fiction identity, material/spatial character]
 Scale and depth evidence: [compatible relationships visible without the caption]
 Reference relationships: [selected visible qualities; source names only when actually inspected]
+Functional fusion, when requested:
+  biological process / technological role / convergence stage
+  shared structure or material continuity / visible event
+  intended capabilities not established by the image
 Open question: [optional mystery or next story direction]
 Design fingerprint:
   subject / construction logic / silhouette / setting / scale

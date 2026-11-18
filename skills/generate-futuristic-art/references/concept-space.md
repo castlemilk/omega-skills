@@ -4,6 +4,7 @@
 
 - [Combine causes rather than decorations](#combine-causes-rather-than-decorations)
 - [Domains of invention](#domains-of-invention)
+- [Convergent organic technology](#convergent-organic-technology)
 - [Change the construction language](#change-the-construction-language)
 - [Six example seeds](#six-example-seeds)
 - [Ways to extend a world](#ways-to-extend-a-world)
@@ -34,6 +35,42 @@ With effectively unlimited energy, technology, time or space, a civilization may
 | The incomprehensible | What should remain unexplained while its relationships stay consistent? | Coherent repeated responses, occluded interiors, effects with no conventional source, uncertain scale |
 
 Use several domains across a series, not all of them in every scene. Develop fictional propulsion and weapons through their visual consequences and cultural roles rather than real operational specifications.
+
+## Convergent organic technology
+
+For a requested organic-techno direction, imagine civilizations for which biology, fabrication, computation and large-scale engineering have become a continuous practice. Use unlimited fictional capability when requested. Do not assert that real technology must follow this path.
+
+Build the concept from a **shared function**, then make that function alter the visible world. A manufactured-looking edge can emerge from growth; biological matter can be dry, severe, mineral, rectilinear or optically precise. Grown structures need not resemble Earth plants or animals.
+
+| Bridge between domains | Shared function in the fiction | Visible construction opportunity |
+| --- | --- | --- |
+| Growth and fabrication | A developmental process places and renews structural material | Porous branching tissue grades into aligned fibers, precise lamellae and load-bearing plates along one continuous member |
+| Circulation and power or cooling | Distributed transport supplies energy and removes heat | Fine capillaries gather into deep channels that spread through radiator vanes; differentiated material follows the same network |
+| Nervous systems and computation | The structure senses, communicates and adapts locally | Sensory pores and branching optical pathways converge into faceted processing regions without a separate computer box |
+| Healing and maintenance | Damaged regions regrow according to the structure's current task | A repair front bridges a fractured edge; fresh smooth material transitions into older patterned structure |
+| Skeleton and civil engineering | Living supports distribute load and change with use | Dense rootlike buttresses become tension bundles and precise transit spans; stress-aligned growth continues through the junction |
+| Metabolism and propulsion | A ship regulates an extraordinary fictional drive as part of its body | Folded exchange chambers, ordered gill-like vanes and rigid field elements share one developed structural system |
+| Ecology and planetary infrastructure | A planetary environment also organizes transport, manufacture and habitation | Continental branching ridges merge into deep engineered cavities; weather and oceans remain readable beside planetary construction |
+| Immunity and defense | A civilization protects a habitat through a distributed responsive system | Protective lamellae thicken around a bounded event, or living material organizes a restrained fictional weapon aperture |
+
+Select one primary bridge and, when useful, a supporting one. Do not force all functions into every picture. Keep fictional weapons at the level of narrative capability and visual design.
+
+**Choose a convergence stage.** Early systems may show deliberate interfaces; co-developed systems share support and transport networks; mature systems express several roles through one material organization. These are design alternatives, not a prescribed evolutionary history. At mature convergence, show a specialized region or a consequential action rather than inventing a seam that the premise says no longer exists.
+
+For the chosen concept, write four short items:
+
+1. The biological process and technological role being joined.
+2. What extraordinary capability or voluntary purpose drives that joining.
+3. The continuous spatial or material relationship that can actually be pictured.
+4. A visible event: carrying a load, forming a new span, repairing damage, opening a drive chamber, reorganizing protection or extending a planetary structure.
+
+Give material transitions a location, direction and scale. For example: porous dark tissue at a mountain-sized support gradually aligns into taut metallic fibers; the same fibers flatten into thin structured ribs beneath the transit deck. The transition follows the load path and remains visible from a distant viewpoint. Do not divide the image into an arbitrary organic half and mechanical half.
+
+Keep the scope of "bridges" broad. Connect growth with manufacture, agency with infrastructure, or metabolism with propulsion; include a literal bridge when its structure offers a strong scene. Do not turn every convergence brief into a series of bridges.
+
+**Diversity check:** vary function, maturity, material, topology and scale. Try mineral-black lattices, translucent amber transport membranes, matte red ceramic tissue, optical crystals, flexible dark films or geological strata. Avoid making every world an ivory shell, a tree, wet flesh, tangled tendrils, or a metallic animal. Preserve coherent grand forms and quiet regions around intricate junctions.
+
+**Image review:** identify the fusion features actually visible. A render can show branching channels and a repaired seam; it cannot by itself establish sentience, metabolic operation or self-repair over time. Keep those capabilities as fiction unless motion or other evidence was actually produced.
 
 ## Change the construction language
 
