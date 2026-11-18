@@ -1,0 +1,8 @@
+interface:
+  display_name: "Futuristic Worlds & Artwork"
+  short_description: "Invent worlds and generate monumental sci-fi artwork"
+  default_prompt: "Use $generate-futuristic-art to invent three original monumental sci-fi worlds with varied ships, megastructures and extraordinary technologies, then generate their artwork."
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

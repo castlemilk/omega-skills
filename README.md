@@ -4,8 +4,31 @@ Portable agent skills:
 
 - **[beneb-logo](skills/beneb-logo/SKILL.md):** counted batches of original logo concepts and visual identity material for **beneb systems**.
 - **[discover-ai-business-opportunities](skills/discover-ai-business-opportunities/SKILL.md):** recurring evidence-backed business opportunity discovery and evaluation.
-
 - **[futurist-research](skills/futurist-research/SKILL.md):** physics-constrained possibility exploration, competing futures, value capture and reflective forecasting.
+- **[generate-futuristic-art](skills/generate-futuristic-art/SKILL.md):** original monumental science-fiction worlds, distinct visual concepts, separate image generation and review of the actual artwork.
+
+## Install and use generate-futuristic-art
+
+Invent civilizations, ships, megastructures, propulsion and fictional weapons with a coherent visual language. The fiction may assume unlimited energy, time and space. Develop the world and concepts, check the monumental theme and visual diversity, then generate each selected image separately and inspect the actual output.
+
+```sh
+npx skills add castlemilk/omega-skills --skill generate-futuristic-art
+```
+
+In Codex:
+
+```text
+Use $generate-futuristic-art to invent three distinct monumental civilizations
+and their interstellar ships. Give each a different physical premise,
+silhouette and spatial logic, then generate and review a separate image
+for each concept.
+```
+
+Prompts-only requests and edits to supplied images are also supported. The host supplies image generation and image inspection; installation supplies the workflow and references. The [worldbuilding loop](skills/generate-futuristic-art/references/worldbuilding-loop.md), [visual vocabulary](skills/generate-futuristic-art/references/detail-vocabulary.md), [reference atlas](skills/generate-futuristic-art/references/reference-atlas.md) and [blank world notebook](skills/generate-futuristic-art/references/world-notebook.md) support continued exploration.
+
+The public package contains generalized, original visual vocabulary and a blank notebook. Private reference footage, framepacks and user feedback are excluded. References supplied at runtime can be inspected through the host; keep generated artwork, completed notebooks and feedback in the project's private destination outside the installed skill. The installer requirements and agent/global options below apply to all four skills.
+
+Run `npm run test:futuristic-art` for this bundle's packaging checks. These checks verify the publication structure and known privacy hazards; artistic quality, theme fit, originality and visual diversity require review of generated images.
 
 ## Install futurist-research
 
@@ -27,7 +50,7 @@ The skill includes a [possibility method](skills/futurist-research/references/me
 
 Live research and durable private storage are host capabilities, not provided by this bundle. Keep forecast ledgers and discussion feedback outside the public repository and installed skill directory. Installation does not retrain a model, create a schedule or install the skill on other machines. The existing `discover-ai-business-opportunities` skill remains a separate, optional downstream workflow for evaluating current buyers and ventures.
 
-The installer requirements and agent/global options below apply to all three skills. Run `npm run test:futurist` for this bundle's structural checks. Behavioral regression cases require separate review; they are not executed by that command.
+The installer requirements and agent/global options below apply to all four skills. Run `npm run test:futurist` for this bundle's structural checks. Behavioral regression cases require separate review; they are not executed by that command.
 
 ## Install discover-ai-business-opportunities
 
@@ -43,7 +66,7 @@ The host needs web search/read access for current research and durable private s
 
 The bundle preserves 67 historical public-source research records, including exclusions and limitations. It does not include personal conversation links, user feedback, a runtime ledger or credentials. Keep those outside this repository and outside the installed skill. Installing it grants no authority to contact customers, spend money, build or deploy products.
 
-Review [SKILL.md](skills/discover-ai-business-opportunities/SKILL.md), [evidence criteria](skills/discover-ai-business-opportunities/references/evaluation.md) and [continuity guidance](skills/discover-ai-business-opportunities/references/continuity.md). The installer requirements and agent/global options below apply to all three skills.
+Review [SKILL.md](skills/discover-ai-business-opportunities/SKILL.md), [evidence criteria](skills/discover-ai-business-opportunities/references/evaluation.md) and [continuity guidance](skills/discover-ai-business-opportunities/references/continuity.md). The installer requirements and agent/global options below apply to all four skills.
 
 ## Install beneb-logo
 
@@ -149,7 +172,9 @@ npm test
 npm run test:install
 ```
 
-`npm test` validates all three portable bundles and exercises logo curation state transitions, frozen revisions, feedback retries, undo and state protection. Futurist tests check discovery metadata, internal references, privacy guards and record contracts; they do not measure forecasting accuracy. Opportunity payload tests also check source-row integrity and reject private identifiers, credential-like material, machine paths and accidentally bundled runtime state. `npm run test:install` uses `skills@1.7.4` to discover and install all three skills into an isolated temporary project for Codex and Claude Code, then compares the installed files byte-for-byte with the source. It does not install globally. The smoke test requires network access on its first run.
+`npm test` validates all four portable bundles and exercises logo curation state transitions, frozen revisions, feedback retries, undo and state protection. Futurist tests check discovery metadata, internal references, privacy guards and record contracts; they do not measure forecasting accuracy. Opportunity payload tests also check source-row integrity and reject private identifiers, credential-like material, machine paths and accidentally bundled runtime state. Futuristic-art tests check the required files, local link closure, discovery metadata and publication guards against symlinks, known private identifiers, credentials, runtime files and source media. They do not evaluate the quality of generated artwork.
+
+`npm run test:install` uses `skills@1.7.4` to discover and install all four skills into an isolated temporary project for Codex and Claude Code, then compares the installed files byte-for-byte with the source. It does not install globally. The smoke test requires network access on its first run.
 
 To test a remote source after publishing:
 

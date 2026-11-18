@@ -1,15 +1,16 @@
 {
   "name": "omega-skills",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
-  "description": "Portable agent skills for design, business opportunity discovery and futurist research",
+  "description": "Portable agent skills for design, futuristic art, business opportunity discovery and futurist research",
   "type": "module",
   "engines": {
     "node": ">=22.20.0"
   },
   "scripts": {
-    "test": "node scripts/check.mjs && node tests/curate.test.mjs && node scripts/check-business-opportunities.mjs && node tests/business-opportunities.test.mjs && node --test tests/futurist-research.test.mjs",
+    "test": "node scripts/check.mjs && node tests/curate.test.mjs && node scripts/check-business-opportunities.mjs && node tests/business-opportunities.test.mjs && node --test tests/futurist-research.test.mjs tests/generate-futuristic-art.test.mjs",
     "test:install": "node scripts/smoke-install.mjs",
-    "test:futurist": "node --test tests/futurist-research.test.mjs"
+    "test:futurist": "node --test tests/futurist-research.test.mjs",
+    "test:futuristic-art": "node --test tests/generate-futuristic-art.test.mjs"
   }
 }
