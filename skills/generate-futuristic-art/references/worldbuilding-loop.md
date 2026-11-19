@@ -28,6 +28,8 @@ Use creative writing to discover a scene's reason to exist. Keep the loop bounde
 | Concepts or writing only | Deliver concepts or prose; do not generate images |
 | Prompts only | Develop the concept as needed, then provide prompts; do not generate images |
 
+Before selecting open concepts, run the [deliberate-departure pass](antialgorithm-method.md#run-one-bounded-creative-pass). Preserve fixed choices, give each departure a subject-specific reason, and compare the main design move with the actual available notebook. Do not use randomness as evidence of originality.
+
 For a series, draft approximately twice as many one-sentence candidates as final images. Work in batches of at most twelve selected scenes when the request is larger, maintaining a set-wide diversity ledger. Develop only promising candidates. Default to one draft, one critique and one targeted revision before rendering. Do not require concept approval unless the user asks for it. Do not multiply image calls merely to exhaust a quota; make the requested number and revise real failures.
 
 ## Preserve the selected direction

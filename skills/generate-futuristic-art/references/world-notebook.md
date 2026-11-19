@@ -46,6 +46,10 @@ Functional fusion, when requested:
   shared structure or material continuity / visible event
   intended capabilities not established by the image
 Open question: [optional mystery or next story direction]
+Design move:
+  familiar construction considered / chosen departure and reason
+  visual method / protected choices and exact diagram meaning
+  recent moves actually compared, or no prior ledger available
 Design fingerprint:
   subject / construction logic / silhouette / setting / scale
   viewpoint / composition / materials / palette / mood
@@ -73,3 +77,7 @@ Do not count a prompt as a generated image or a generated image as inspected unt
 ## Next-scene handoff
 
 Keep five useful items: established facts to preserve, unresolved questions, motifs already used, the user's latest preferences, and the next genuinely different scene opportunity. Preserve these in the conversation or an explicitly saved artifact as appropriate. Update the skill itself only when authorized.
+
+## Optional diagram recipe record
+
+For the bundled SVG renderer, retain the returned recipe with its generator version, study kind, seed, canvas dimensions and resolved parameters. Record synthetic field labels, exported file identity, inspection results and any custom semantic constraints. This supports replay of that renderer only; do not promise deterministic raster image generation. Keep completed recipes and recent-move histories in authorized private project storage, outside the installed/public skill. See [diagram-studies.md](diagram-studies.md).

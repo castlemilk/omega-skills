@@ -5,7 +5,7 @@ Portable agent skills:
 - **[beneb-logo](skills/beneb-logo/SKILL.md):** counted batches of original logo concepts and visual identity material for **beneb systems**.
 - **[discover-ai-business-opportunities](skills/discover-ai-business-opportunities/SKILL.md):** recurring evidence-backed business opportunity discovery and evaluation.
 - **[futurist-research](skills/futurist-research/SKILL.md):** physics-constrained possibility exploration, competing futures, value capture and reflective forecasting.
-- **[generate-futuristic-art](skills/generate-futuristic-art/SKILL.md):** original monumental science-fiction worlds, distinct visual concepts, separate image generation and review of the actual artwork.
+- **[generate-futuristic-art](skills/generate-futuristic-art/SKILL.md):** original monumental science-fiction worlds, deliberate creative departures, image generation and editable systems diagrams.
 
 ## Install and use generate-futuristic-art
 
@@ -28,7 +28,19 @@ Prompts-only requests and edits to supplied images are also supported. The host 
 
 The public package contains generalized, original visual vocabulary and a blank notebook. Private reference footage, framepacks and user feedback are excluded. References supplied at runtime can be inspected through the host; keep generated artwork, completed notebooks and feedback in the project's private destination outside the installed skill. The installer requirements and agent/global options below apply to all four skills.
 
-Run `npm run test:futuristic-art` for this bundle's packaging checks. These checks verify the publication structure and known privacy hazards; artistic quality, theme fit, originality and visual diversity require review of generated images.
+### Original diagram studies
+
+The [Antialgorithm adaptation](skills/generate-futuristic-art/references/antialgorithm-method.md) adds subject-specific departures and recent-move comparison to the creative loop. It credits a pinned upstream source and preserves exact diagram meaning. The new SVG renderer and interactive atlas are original extensions, not upstream rendering capabilities.
+
+Generate an offline atlas and editable SVGs with an existing Node.js 22.20+ runtime:
+
+```sh
+node skills/generate-futuristic-art/scripts/build-diagram-atlas.mjs --out-dir ./world-diagram-output --seed 731
+```
+
+Choose an output directory outside an installed skill or public checkout. Open `atlas.html` to explore a vascular propulsion section, a grown structural span and a planetary climate shell. Each has different geometry and parameters, plus recipe import, SVG export and seed replay. These are fictional engineering studies with synthetic normalized fields, not physical simulations. The [diagram reference](skills/generate-futuristic-art/references/diagram-studies.md) defines parameters, replay limits, accessibility and resource budgets. No third-party packages or upstream scripts are installed or fetched at runtime.
+
+Run `npm run test:futuristic-art` for publication, deterministic-renderer and atlas checks. Tests verify bounded inputs, replay and packaging; artistic quality, theme fit, originality and visual diversity require inspection of actual renders.
 
 ## Install futurist-research
 
@@ -172,7 +184,7 @@ npm test
 npm run test:install
 ```
 
-`npm test` validates all four portable bundles and exercises logo curation state transitions, frozen revisions, feedback retries, undo and state protection. Futurist tests check discovery metadata, internal references, privacy guards and record contracts; they do not measure forecasting accuracy. Opportunity payload tests also check source-row integrity and reject private identifiers, credential-like material, machine paths and accidentally bundled runtime state. Futuristic-art tests check the required files, local link closure, discovery metadata and publication guards against symlinks, known private identifiers, credentials, runtime files and source media. They do not evaluate the quality of generated artwork.
+`npm test` validates all four portable bundles and exercises logo curation state transitions, frozen revisions, feedback retries, undo and state protection. Futurist tests check discovery metadata, internal references, privacy guards and record contracts; they do not measure forecasting accuracy. Opportunity payload tests also check source-row integrity and reject private identifiers, credential-like material, machine paths and accidentally bundled runtime state. Futuristic-art tests check the required files, local link closure, discovery metadata and publication guards against symlinks, known private identifiers, credentials, runtime files and source media. Renderer and atlas tests also cover deterministic replay, bounded parameters and portable exports. They do not evaluate artistic originality or physical validity.
 
 `npm run test:install` uses `skills@1.7.4` to discover and install all four skills into an isolated temporary project for Codex and Claude Code, then compares the installed files byte-for-byte with the source. It does not install globally. The smoke test requires network access on its first run.
 

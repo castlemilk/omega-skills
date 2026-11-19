@@ -21,6 +21,11 @@ const required = new Set([
   'references/prompt-recipes.md',
   'references/detail-vocabulary.md',
   'references/reference-atlas.md',
+  'references/antialgorithm-method.md',
+  'references/antialgorithm-LICENSE.txt',
+  'references/diagram-studies.md',
+  'scripts/world-diagrams.mjs',
+  'scripts/build-diagram-atlas.mjs',
 ]);
 const directories = new Set([...required].filter(name => name.includes('/')).map(name => dirname(name)));
 
@@ -224,7 +229,10 @@ test('repository discovery, installer inventory and test commands include the sk
   const pkg = JSON.parse(packageText);
   assert.match(pkg.version, /^\d+\.\d+\.\d+$/);
   assert(pkg.scripts.test.includes('tests/generate-futuristic-art.test.mjs'));
-  assert.equal(pkg.scripts['test:futuristic-art'], 'node --test tests/generate-futuristic-art.test.mjs');
+  for (const filename of ['generate-futuristic-art.test.mjs', 'world-diagrams.test.mjs', 'diagram-atlas.test.mjs']) {
+    assert(pkg.scripts['test:futuristic-art'].includes(`tests/${filename}`));
+    assert(pkg.scripts.test.includes(`tests/${filename}`));
+  }
   assert(smoke.includes(`'${skillName}'`));
   assert(readme.includes(`skills/${skillName}/SKILL.md`));
   assert(readme.includes(`--skill ${skillName}`));
