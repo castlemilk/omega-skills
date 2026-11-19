@@ -5,6 +5,7 @@
 - [Default art direction](#default-art-direction)
 - [Ground the direction in visible references](#ground-the-direction-in-visible-references)
 - [Keep invention inside the intended theme](#keep-invention-inside-the-intended-theme)
+- [Carry the direction through diagrams](#carry-the-direction-through-diagrams)
 - [Build a varied set](#build-a-varied-set)
 - [Make scale visible](#make-scale-visible)
 - [Check before and after generation](#check-before-and-after-generation)
@@ -58,6 +59,14 @@ Use unlimited energy, time and advanced technology to change what civilizations 
 
 Do not require darkness, violence, decay, human scale fittings or industrial metal. Do not use these examples as fixed compositions. Generate new causes, structures and events.
 
+## Carry the direction through diagrams
+
+When “diagram,” “cutaway” or “systems study” appears within an established sci-fi art brief, retain the world and medium. Depict a vast alien structure with convincing thickness, spatial depth, extraordinary morphology and a visible operating relationship. A revealed interior can remain a cinematic scene: deep cavities disappear through weather, grown strata become precise functional regions, or a planetary section is read against its limb and cloud systems. The relationship must belong to the structure rather than sit beside it as a generic chart.
+
+Use camera, light, scale and material to make the system intelligible. Preserve exact labels or connections separately when requested; compose verified typography over or beside the art without allowing it to replace the world. Use clean vector schematics, parameter dashboards and textbook plates only for an explicit technical/vector/data request. Existing SVG templates do not define the art style or the limits of invention.
+
+Review the image without any title, callout, legend or stated size. Could it be an ordinary civil bridge, a conventional turbine, or a textbook globe? If so, rebuild the principal form and scene for the monumental alien-world brief. Tiny craft and “kilometre-class” labels cannot supply missing science-fiction identity. Make the extraordinary capability change the silhouette, construction and environmental relationships before adding surface detail.
+
 ## Build a varied set
 
 Track the domains the user actually requests. If a brief asks for worlds, ships, monoliths, planetary structures, propulsion and weapons, represent all of them across the set rather than drifting entirely into ecological parables. Combine roles when the requested count is small. A singular brief needs only its requested subject.
@@ -95,6 +104,6 @@ Avoid shallow tabletop perspective, evenly sized decorative objects, domestic pa
 
 **Before rendering:** remove titles and lore. Can the visual description still communicate an unfamiliar sci-fi world, convincing scale, coherent construction and atmosphere? If not, redesign its physical organization. Then audit diversity across the surviving candidates. Theme fit is not a score that novelty can compensate for.
 
-**After rendering:** compare the actual image to the brief and selected references. Record whether the theme, subject, scale, spatial relationships and material hierarchy are visible. Count and topology claims require direct inspection; a prompt cannot verify itself. If the image collapses into a toy, a plaza or an abstract diagram, revise the principal forms, viewpoint and depth rather than adding microdetail to the failed composition.
+**After rendering:** compare the actual image to the brief and selected references. Record whether the theme, subject, scale, spatial relationships and material hierarchy are visible. Count and topology claims require direct inspection; a prompt cannot verify itself. If the image collapses into a toy, a plaza, a near-future engineering plate or an abstract diagram, revise the principal forms, viewpoint and depth rather than adding microdetail to the failed composition. A technical explanation can be accurate while the artwork still fails this direction.
 
 Preserve successful features when making a focused edit. If the concept itself is wrong for the brief and no user invariants require keeping it, generate a replacement from the corrected concept. Use the bounded iteration budget and state any remaining failure honestly. Retain the broader original-world ambition after the correction.

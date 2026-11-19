@@ -23,6 +23,8 @@ Use creative writing to discover a scene's reason to exist. Keep the loop bounde
 | Invent new worlds or an exploratory image set | Full premise-to-image loop; vary underlying worlds and design languages |
 | Develop one established civilization | Preserve canon; explore new institutions, locations, activities and viewpoints |
 | One open image | Two or three brief seeds, one selected card, one image |
+| Art-led diagram, cutaway or world-system image | Full visual invention within the inherited sci-fi direction; render the world, then compose exact annotations separately if requested |
+| Explicit technical/vector/data diagram | Preserve exact semantics with a suitable precise renderer; use the optional schematic examples only when they fit |
 | Exact subject, format or composition | Add only reasoning that serves the brief; do not introduce extra lore or subjects |
 | Edit an existing image | Preserve specified invariants and use the actual image; bypass wholesale reinvention |
 | Concepts or writing only | Deliver concepts or prose; do not generate images |
@@ -36,7 +38,7 @@ For a series, draft approximately twice as many one-sentence candidates as final
 
 Before inventing candidates, establish the visual direction from the request and [monumental-direction.md](monumental-direction.md). For the default exploration, retain monumental science-fiction presence, convincing scale, coherent material construction and atmospheric depth. Inspect references supplied in the current task when available; use the bundled text atlas for proposed direction otherwise. Treat this direction as a selection criterion throughout the loop, not a style adjective added to the final prompt.
 
-Explore unrestricted energy, time, technology and unusual forms of existence within that direction. Translate care, play, diplomacy or unfamiliar perception into substantial worlds and scenes. Do not substitute a small decorative plaza, bead track or abstract diagram for the requested epic imagery merely because its accompanying story is original. Keep explicit product, intimate-scene and style-change requests as overrides.
+Explore unrestricted energy, time, technology and unusual forms of existence within that direction. Translate care, play, diplomacy or unfamiliar perception into substantial worlds and scenes. Do not substitute a small decorative plaza, bead track or abstract diagram for the requested epic imagery merely because its accompanying story is original. Keep explicit product, intimate-scene and style-change requests as overrides. The word “diagram” alone does not change this art direction into a technical plate or a dashboard. Before rendering, remove labels and ask whether the construction could be an ordinary bridge, turbine or textbook globe; if so, rebuild its alien morphology, setting and scale relationships.
 
 ## 1. Establish a consequential premise
 

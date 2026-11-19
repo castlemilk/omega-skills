@@ -18,14 +18,14 @@ This integration adds original science-fiction examples, structured planning fie
 
 ## Run one bounded creative pass
 
-Use this pass inside the existing worldbuilding loop, before final concept selection. Preserve the user's fixed subject, theme, reference anchors, medium, format and requested information.
+Use this pass inside the existing worldbuilding loop, before final concept selection. Preserve the user's fixed subject, theme, reference anchors, medium, format and requested information. Treat Antialgorithm as an aid to inventing worlds, alien morphology and composition, not as a style override or a menu of templates. Preserve the monumental science-fiction image even when the user calls it a diagram or cutaway; choose a clean technical schematic only when that presentation is explicitly requested.
 
 1. **Identify the easy answer.** Note the familiar construction likely to emerge: another centered portal, a familiar ship covered in vines, a planet wrapped in identical rings, or an interchangeable grid of boxes. This is a design diagnosis, not a ban on those forms when the brief needs them.
 2. **Find a reason to depart.** Connect the departure to the world's purpose or a question the diagram must answer. A heat-exchange network might become the hull's structural hierarchy; a planetary organism might expose circulation only where its plates separate. Avoid changing everything merely to be strange.
 3. **Make two or three alternatives differ in kind.** Change mechanism, topology, scale relationship, viewpoint or construction logic before changing colors. For a set, compare these dimensions across the selected scenes. A familiar opposite can still be a default.
 4. **Choose one organizing move.** State the visual consequence in concrete terms. For example, “the growth front crosses the load path and leaves a visible transition from porous roots to aligned structural fibers.” Let that move determine detail, crop and emphasis.
 5. **Select a compatible visual method.** Keep the marks consistent with the chosen method and the brief. Do not add decorative noise to rescue a weak composition.
-6. **Apply theme and meaning checks.** For monumental art, inspect scale, mass, depth and material coherence. For a requested diagram, check whether the intended relationship can be read, then check its world identity. A diagram is not a substitute for requested cinematic artwork, and diagram labels do not need a painterly treatment.
+6. **Apply theme and meaning checks.** For monumental art and art-led diagrams, inspect alien identity, scale, mass, depth and material coherence before reading the labels. A conventional bridge, turbine or textbook globe fails this brief even with invented terminology. Make the operating relationship visible within the extraordinary scene. For an explicitly requested technical diagram, protect exact semantics and the requested clean presentation; labels themselves remain precise.
 7. **Render, inspect, revise once if needed.** Inspect thumbnail structure and a full-size result. Record what actually appeared and the main design move. Do not treat a seed, a novel title, or a changed palette as proof of global uniqueness.
 
 Skip invention that would violate a precise brief. For an edit, make the requested change while retaining its invariants. Keep the pass internal or present a short concept slate; avoid forcing the user through a creativity questionnaire.
@@ -37,7 +37,7 @@ Use [convergent organic technology](concept-space.md#convergent-organic-technolo
 | Familiar construction | Subject-specific departure | Relationship to make visible |
 | --- | --- | --- |
 | Engine with decorative tendrils | A contractile circulation system shares structure with a drive chamber | Fine branching exchange paths converge into rigid field lamellae; the chamber and transport paths occupy one sectional body |
-| Steel bridge with vegetation | A span grows its tension members along an inhabited valley | Mineral roots, aligned fibers and the manufactured deck share a continuous path; the growth front is distinct from the applied-load annotation |
+| Steel bridge with vegetation | An alien circulation organ anchors a suspended continent across a storm basin | Mountain-scale buttresses become aligned tension tissue and inhabited folds; clouds pass through the structure and its active growth front changes the silhouette |
 | Planet with luminous orbital ribbons | A tectonic climate shell opens selected regions around a living ocean | Plate margins, apertures, circulation and planetary curvature organize different layers at different scales |
 | Weapon with a larger glowing barrel | A fictional defense organ rearranges local protection | A bounded protective response changes the silhouette; keep its capability narrative and non-operational |
 | Monolith covered in symbols | A sensing structure records events through the organization of its material | A readable change in surface orientation or internal layering carries the premise without invented UI glyphs |
@@ -46,7 +46,7 @@ These are original prompts, not claims about a source video or real technology. 
 
 ## Choose a visual method
 
-Let the method carry evidence about the subject. A clean sectional plate can explain joints; a broad orbital view can establish planetary scale; a photographic or painterly scene can communicate weather and distance. Use false color only with a legend that says what it represents. In fictional studies label the field as synthetic or illustrative and give normalized units rather than inventing measured temperatures.
+Let the method carry evidence about the subject while retaining the inherited medium and theme. For this default, use cinematic or painterly construction to establish alien morphology, material depth, weather and immense distance. An art-led cutaway can reveal internal relationships without flattening the scene into a textbook plate. Reserve a clean sectional schematic for an explicit technical request. Use false color only when requested or useful to that presentation, with a legend that says what it represents; label fictional fields as synthetic or illustrative rather than inventing measured temperatures.
 
 Distinguish intentional construction from arbitrary distress. If the medium is print, selective registration and ink behavior may be appropriate. If it is an instrument image, a sampling grid may have a purpose. If it is a material render, thickness, seams and reflection should explain the surface. Clean CAD and precise typography should remain clean. Do not copy an upstream seed list that sends a monumental brief toward miniature clay scenes, playgrounds or unrelated visual genres.
 
@@ -71,7 +71,7 @@ Keep a compact recent-move ledger in the current conversation or authorized priv
 
 ## Protect diagram meaning
 
-Choose [diagram-studies.md](diagram-studies.md) for editable SVGs and repeatable parameter exploration. Write down the exact connections, values, labels, directions and units that must survive styling. Keep those semantic elements separate from illustrative geometry. Never roughen text, move a data point, change a connection, or relabel a synthetic field as measured evidence to make the image feel more unusual.
+Choose [diagram-studies.md](diagram-studies.md) only for explicitly requested technical/vector/data output or repeatable schematic parameter exploration. The word “diagram” in an art brief does not select that route. For an illustrated alien system, generate the world image first and compose exact annotations separately when requested. Write down the exact connections, values, labels, directions and units that must survive styling. Keep those semantic elements separate from illustrative geometry. Never roughen text, move a data point, change a connection, or relabel a synthetic field as measured evidence to make the image feel more unusual.
 
 For real data, preserve and cite the actual source; do not place it in these fictional study templates without implementing and validating the appropriate mapping. When a request needs a small exact topology diagram, a clear Mermaid diagram may be sufficient. When a request needs rendered artwork, use the available image-generation tool and inspect the output. SVG seeds apply only to this renderer, not to an image model.
 

@@ -1,7 +1,7 @@
 interface:
   display_name: "Futuristic Worlds & Artwork"
-  short_description: "Invent epic worlds, artwork and distinctive diagrams"
-  default_prompt: "Use $generate-futuristic-art to invent original monumental sci-fi worlds with organic-techno structures, distinct functions and visual languages, then create artwork or editable diagrams as requested."
+  short_description: "Invent monumental sci-fi worlds and cinematic artwork"
+  default_prompt: "Use $generate-futuristic-art to invent three original monumental sci-fi worlds with organic-techno structures, distinct functions and alien visual languages, then generate detailed cinematic artwork for each."
   icon_small: "assets/icon.svg"
   icon_large: "assets/icon.svg"
 policy:

@@ -5,7 +5,7 @@ Portable agent skills:
 - **[beneb-logo](skills/beneb-logo/SKILL.md):** counted batches of original logo concepts and visual identity material for **beneb systems**.
 - **[discover-ai-business-opportunities](skills/discover-ai-business-opportunities/SKILL.md):** recurring evidence-backed business opportunity discovery and evaluation.
 - **[futurist-research](skills/futurist-research/SKILL.md):** physics-constrained possibility exploration, competing futures, value capture and reflective forecasting.
-- **[generate-futuristic-art](skills/generate-futuristic-art/SKILL.md):** original monumental science-fiction worlds, deliberate creative departures, image generation and editable systems diagrams.
+- **[generate-futuristic-art](skills/generate-futuristic-art/SKILL.md):** original monumental science-fiction worlds, alien visual languages, deliberate creative departures and cinematic artwork.
 
 ## Install and use generate-futuristic-art
 
@@ -28,11 +28,13 @@ Prompts-only requests and edits to supplied images are also supported. The host 
 
 The public package contains generalized, original visual vocabulary and a blank notebook. Private reference footage, framepacks and user feedback are excluded. References supplied at runtime can be inspected through the host; keep generated artwork, completed notebooks and feedback in the project's private destination outside the installed skill. The installer requirements and agent/global options below apply to all four skills.
 
-### Original diagram studies
+### Creative departures and optional technical studies
 
-The [Antialgorithm adaptation](skills/generate-futuristic-art/references/antialgorithm-method.md) adds subject-specific departures and recent-move comparison to the creative loop. It credits a pinned upstream source and preserves exact diagram meaning. The new SVG renderer and interactive atlas are original extensions, not upstream rendering capabilities.
+The [Antialgorithm adaptation](skills/generate-futuristic-art/references/antialgorithm-method.md) strengthens concept, alien morphology and composition within the monumental sci-fi direction. It credits a pinned upstream source and compares recent design moves. Art-led diagrams and cutaways retain cinematic scale, atmosphere and material depth; the word “diagram” does not automatically select a flat schematic.
 
-Generate an offline atlas and editable SVGs with an existing Node.js 22.20+ runtime:
+An optional SVG renderer and interactive atlas support explicit technical/vector requests. Their three explanatory examples are original extensions, not upstream rendering capabilities or the art direction for this skill.
+
+For that optional technical mode, generate an offline atlas and editable SVGs with an existing Node.js 22.20+ runtime:
 
 ```sh
 node skills/generate-futuristic-art/scripts/build-diagram-atlas.mjs --out-dir ./world-diagram-output --seed 731

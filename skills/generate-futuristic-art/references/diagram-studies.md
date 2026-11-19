@@ -1,14 +1,15 @@
-# Editable world diagrams
+# Optional technical SVG studies
 
-Use the bundled renderer for original illustrative science-fiction sections and systems studies. Use the [Antialgorithm adaptation](antialgorithm-method.md) to choose meaningful departures before drawing. The three studies demonstrate different constructions; they are not an exhaustive catalog of future worlds.
+Use this route for an explicitly requested technical/vector/data diagram or repeatable schematic. The three bundled examples are flat explanatory constructions; they do not establish the visual standard for monumental sci-fi art. Within an art-led request, “diagram,” “cutaway” or “systems study” retains the [monumental direction](monumental-direction.md) and the image-generation workflow. Use the [Antialgorithm adaptation](antialgorithm-method.md) to strengthen concept, morphology and composition without switching the medium.
 
 ## Choose the right output
 
 | Requested result | Route |
 | --- | --- |
 | Cinematic or painterly artwork | Creative-writing loop, then the available image-generation tool |
-| Precise connections or process order | Semantic model first; use a compact Mermaid diagram when sufficient |
-| Editable fictional section, structure or planetary study | The SVG renderer below, with explicit illustrative labels |
+| Art-led sci-fi diagram, cutaway or world-system image | Retain alien morphology, epic scale, material depth and atmosphere; generate the illustrative image and add verified annotations separately when requested |
+| Explicit exact connections, process order or data diagram | Semantic model first; use a compact Mermaid diagram or another precise tool when sufficient |
+| Explicit editable vector schematic matching one of these examples | The optional SVG renderer below, with illustrative labels |
 | Real scientific chart, technical design or simulation | Use the appropriate data/modeling workflow; retain sources, units and validation |
 
 Do not offer a technical-looking picture as evidence of an engineered system. These SVGs use invented geometry and normalized fields, not heat transfer, structural mechanics, fluid simulation or measured observations. Their numeric controls are authoring parameters.
@@ -65,4 +66,4 @@ Keep each generated SVG below 200 KB and 2,500 elements. Bound every count and n
 
 Review the offline atlas at desktop and phone widths. On a narrow screen, retain readable controls and a useful diagram viewing route rather than shrinking all lettering into an unreadable miniature. Test keyboard focus, seed validation, study changes, control changes, reset, import failure without corrupting the current view, and SVG/JSON exports. Do not add motion to communicate a state that can be read statically.
 
-Extend the renderer with a new study when the creative brief needs a different visual construction. Specify its semantic question, independent parameter schema, composition, layer structure, invalid states and performance bounds. Preserve exact labels and relationships while giving each study its own geometry. Keep generated imagery, runtime records and private source evidence outside the distributable package.
+Extend the renderer only when an explicit technical/vector task needs a new schematic. Do not expand the atlas or build controls merely because an artwork brief needs a new world. Specify its semantic question, independent parameter schema, composition, layer structure, invalid states and performance bounds. Preserve exact labels and relationships while giving each study its own geometry. Keep generated imagery, runtime records and private source evidence outside the distributable package.
