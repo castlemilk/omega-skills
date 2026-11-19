@@ -74,17 +74,21 @@ Keep the scope of "bridges" broad. Connect growth with manufacture, agency with 
 
 ## Change the construction language
 
-Derive material and structure from a world's premise. Consider alternatives to the same plated-metal vocabulary:
+Derive material and structure from a world's premise. Choose a process, identify the organization it produces, and picture one consequence of that organization. For example, directional growth may produce aligned layers that peel open to redirect an immense drive; cellular growth may create chambers that change size toward a sensing face. These are fictional visual relationships, not engineering claims.
+
+For an exploratory set, compare the main silhouettes and exposed interiors before assigning colors. If several concepts depend on the same branching ribs, cathedral cavity or root network, change the organizing process in the repeated candidates. Keep shared construction when continuity is requested. Use the alternatives below as prompts for invention, not a checklist or a closed catalog:
 
 | Construction logic | Detail that follows from it | Easy collapse to avoid |
 | --- | --- | --- |
-| Grown living structure | Growth fronts, branching transport tissue, repair scars, symbiotic organisms | Ordinary building covered in vines |
+| Branching growth and transport | Growth fronts, differentiated channels, repair scars and functional junctions | Every living technology becoming a tree or cathedral |
+| Lamination and aligned tissue | Layer direction follows a load or transport path; thick strata separate into precise vanes at an active region | Decorative stacked fins with no continuous body |
+| Cellular or crystalline growth | Cell size and facet orientation vary across a thick structural volume; a specialized face changes the pattern | A uniform honeycomb texture or ornamental crystal cluster |
 | Continuous self-repair | Renewal boundaries, selected preserved marks, smooth restored interfaces | Automatic rust and chipped paint everywhere |
-| Membranes and tension | Anchor paths, folds, stress-aligned facets, thin edges | Bulky machinery erasing the membrane |
+| Membranes and tension | Continuous skins, anchor paths, folds and locally thickened seams; an opening changes the whole silhouette | A loose sheet draped over conventional machinery |
 | Fields and organized absence | Boundaries, displaced weather, interrupted shadows, sparse material anchors | A generic neon portal |
 | Geological or planetary construction | Stratigraphy, fault lines, continents, orbital shadows, weather-scale repetition | A small industrial model pasted onto a planet |
 | Optical or crystalline computation | Directional facets, transmission, refracted silhouettes, local spectral changes | Uniform rainbow glow |
-| Fluid or atmospheric habitation | Currents, pressure layers, density fronts, co-moving inhabitants | Glass fish tanks with human rooms |
+| Fluid, phase-changing or atmospheric structures | Coherent volumes, currents, density fronts and regions becoming rigid or permeable around an event | Unanchored luminous ribbons or glass fish tanks with human rooms |
 | Collective temporary bodies | Assembly seams, changing membership, movement rhythms, released components | A conventional robot with a new name |
 | Ceramic, textile or soft civic infrastructure | Glazing, woven supports, protective folds, maintained surfaces | Every civilization becoming military steel |
 

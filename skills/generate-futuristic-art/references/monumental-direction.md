@@ -19,13 +19,16 @@ Create original science-fiction scenes with the presence of a great world glimps
 Keep four visual anchors:
 
 1. **Science-fiction identity.** Show a compelling vessel, built environment, nonhuman ecology, engineered celestial body or phenomenon whose effect is visible. A title mentioning quantum travel does not make an ordinary courtyard read as science fiction.
-2. **Monumental spatial construction.** Use mass, occlusion, long spans, nested distances, deep cavities, immense undersides, weather or planetary geometry. Distribute attention across a system when appropriate, but make its organization and scale legible.
-3. **Material and detail hierarchy.** Give surfaces substance, thickness, edge behavior and meaningful local intricacy. Match construction to the world: ribs and service recesses, grown membranes, mineral strata, optical facets or field boundaries can all work. Preserve quiet large forms around detail.
+2. **Monumental spatial construction.** Use mass, occlusion, long spans, nested distances, deep cavities, immense undersides, weather or planetary geometry. Describe what hides what, how an opening recedes, and where its thickness catches light. Let different scale relationships reinforce one another. Distribute attention across a system when appropriate, but make its organization and scale legible.
+3. **Material and detail hierarchy.** Give surfaces substance, thickness, edge behavior and meaningful local intricacy. Match construction to the world: ribs and service recesses, grown membranes, mineral strata, optical facets or field boundaries can all work. Place concentrated detail at consequential junctions, undersides and exposed interiors; preserve quiet large forms around it. For organic technology, show how material organization continues into a precise functional region.
 4. **Atmosphere and finish.** Use motivated light, deep value structure, selective edges and tactile painted or illustrated surfaces by default. Keep celestial distance, weather or interior depth readable. Use the user's requested medium when different.
 
 Aim for awe, discovery, unease, grandeur, solitude or purposeful power. Serenity and celebration remain possible. Bright color, white ceramic, smooth hulls, organic curves and daylight are welcome; they still need convincing mass, scale and setting.
 
+Carry a successful image forward as relationships: depth behind a quiet plane, a material transition with a purpose, weather crossing an immense void, or local light revealing thickness. Keep these strengths while changing the next world's construction process, silhouette and camera. A successful palette, branching support or cavern composition is a useful option, not a mandatory signature. Derive the next image from its own premise instead of replacing the nouns in the previous prompt.
+
 A common drift pattern is a glossy loop on a tiled plaza with pebble-like forms arranged as decorations. Domestic courtyard cues, shallow depth and game-piece scale can pull an open monumental brief away from its intended direction. Do not generalize this failure into bans on color, curves, ceramics, nonhuman life or optimistic worlds.
+
 ## Ground the direction in visible references
 
 When the user supplies images or footage, inspect actual accessible images before making source claims. Use the [construction atlas](reference-atlas.md) to record visible relationships, distinguish observed appearance from invented function and preserve source/version boundaries. This package contains no private footage or extracted frames. If references are unavailable, use the original guidance below and say the result is based on a written direction.
@@ -86,7 +89,7 @@ Vary the premise, purpose, mechanism, silhouette, construction, environment, sca
 | Atmospheric civilization | Immense buoyant cities exchange weather within a gas giant | Membranes, suspended volumes, storm-depth layers, tiny transit craft |
 | Cosmic encounter | A fleet meets a natural phenomenon larger than its known constructions | Distinct fleet silhouettes, environmental distortion, depth and incomplete revelation |
 
-Avoid reusing one C-shaped drive, ring, wedge, portal, center-framed monument or orange/teal palette for every option. A familiar subject category can recur if its premise, form and spatial composition actually change.
+Avoid reusing one C-shaped drive, ring, wedge, portal, center-framed monument or orange/teal palette for every option. A familiar subject category can recur if its premise, form and spatial composition actually change. Compare construction before surface treatment: a ship, planet and monolith can still repeat the same branching cathedral. Use the [construction-language method](concept-space.md#change-the-construction-language) to change how matter organizes and what that makes visible. Also vary the camera's relationship to the subject—inside, beneath, across, beside or far beyond it—so new worlds do not become the same scene at different sizes.
 
 ## Make scale visible
 

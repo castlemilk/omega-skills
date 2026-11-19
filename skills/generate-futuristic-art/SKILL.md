@@ -15,6 +15,8 @@ Treat novelty and theme fit as separate checks. A clever story cannot rescue an 
 
 Carry the established visual direction into requests for “diagrams,” cutaways and systems imagery unless the user explicitly asks for a technical/vector/data presentation. In this art context, show alien morphology, tangible materials, epic spatial scale and atmospheric depth. Antialgorithm should expand the worlds and compositions within that direction. A conventional bridge, turbine or textbook globe does not become an alien megastructure through labels or a sci-fi title.
 
+When the user approves a result, inspect what worked and separate **qualities to preserve** from **forms to explore next**. Carry forward spatial depth, scale relationships, material continuity, detail hierarchy and atmosphere as applicable. Keep palette, silhouette, construction process and camera open to invention unless continuity is requested. Record concrete observations in the working notebook; do not turn an approved image into a universal preset.
+
 ## Load only what helps
 
 - Read [worldbuilding-loop.md](references/worldbuilding-loop.md) for open briefs about new worlds, concepts, civilizations, advanced technologies or exploratory image sets. Run this before selecting a visual family.
@@ -152,6 +154,7 @@ Inspect the actual generated result against the references and brief:
 - **Close view:** Do ribs follow the form, panels join convincingly, repeated components have consistent rhythm, materials separate, and fine marks concentrate where intended? Check for unintended text, fused components, competing focal lights, and noisy texture.
 - **Fusion, when requested:** Does growth, structure, circulation, sensing or repair visibly serve a technological role? Check the continuity or integration of those systems; distinguish visible features from fictional capabilities that the image cannot prove.
 - **World and story:** Are the chosen premise's visible consequences present? Does the image convey its event or relationship? Did the generator replace an unfamiliar civilization with ordinary human industrial scenery? Keep unseen lore as intended lore, not verified visual evidence.
+- **Series diversity:** Compare the actual silhouettes, exposed interiors and material organization before comparing colors or titles. Check that the generated worlds differ as intended; distinct prompts can still converge on the same branching ribs, cavity or camera angle. Preserve shared construction when the brief asks for continuity.
 
 When a premise depends on a particular count, orientation, connection or spatial paradox, inspect that feature directly. A prompt naming impossible geometry does not establish that the output depicts it. Keep an approximate visual interpretation distinct from the fuller fictional premise.
 

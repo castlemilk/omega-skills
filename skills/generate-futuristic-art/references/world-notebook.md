@@ -12,6 +12,8 @@ speculative_regime: unbounded # or grounded, far_future
 visual_direction: monumental_science_fiction # explicit user overrides take priority
 requested_subject_domains: [] # preserve the user's ships, structures, propulsion, etc.
 shared_traits: [] # only what the user wants shared
+qualities_to_preserve: [] # concrete visible strengths from approved work, or clearly marked proposals
+forms_to_explore: [] # construction processes, silhouettes and viewpoints to vary
 established_world_facts: [] # connected_world only
 recent_motifs_to_vary: []
 ```
@@ -40,6 +42,7 @@ Scene paragraph: [usually 60–120 words when useful]
 Visible consequences: [two or three concrete features]
 Theme evidence: [science-fiction identity, material/spatial character]
 Scale and depth evidence: [compatible relationships visible without the caption]
+Spatial construction: [mass and void; occlusion; thickness; detail focus and quiet region]
 Reference relationships: [selected visible qualities; source names only when actually inspected]
 Functional fusion, when requested:
   biological process / technological role / convergence stage
@@ -51,7 +54,7 @@ Design move:
   visual method / protected choices and exact diagram meaning
   recent moves actually compared, or no prior ledger available
 Design fingerprint:
-  subject / construction logic / silhouette / setting / scale
+  subject / construction process / silhouette / exposed interior / setting / scale
   viewpoint / composition / materials / palette / mood
 Must preserve:
 Exact final image prompt: [when useful or requested]
@@ -68,6 +71,7 @@ Use the observable relationship to retain coherence, not to invent artificial sc
 | Theme fit | What the actual image communicates before its title or lore; identify genre or scale drift |
 | Visible successes | Features actually seen in the output |
 | Visible mismatch | A concrete missing or altered feature |
+| Series comparison | Actual differences in silhouette, interior organization and camera; repetitions that remain |
 | Lore not visually established | Intended concepts that the image cannot verify |
 | Focused revision | One change, preserved invariants and the actual source image |
 | User feedback | Specific preferences; do not generalize one favored image into a universal rule |
@@ -76,7 +80,7 @@ Do not count a prompt as a generated image or a generated image as inspected unt
 
 ## Next-scene handoff
 
-Keep five useful items: established facts to preserve, unresolved questions, motifs already used, the user's latest preferences, and the next genuinely different scene opportunity. Preserve these in the conversation or an explicitly saved artifact as appropriate. Update the skill itself only when authorized.
+Keep established facts, unresolved questions, motifs already used, the user's latest preferences, and the next genuinely different scene opportunity. Separate qualities to preserve from forms to explore; attach an actual image handle or accessible reference only when available. Preserve these in the conversation or an explicitly saved artifact as appropriate. Update the skill itself only when authorized.
 
 ## Optional diagram recipe record
 

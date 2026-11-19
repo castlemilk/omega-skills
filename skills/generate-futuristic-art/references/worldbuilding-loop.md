@@ -143,7 +143,7 @@ As a soft heuristic, selected neighbors should differ meaningfully on several co
 
 Track every explicitly requested subject domain across the selected set. A request spanning ships, planetary structures, propulsion and weapons should not become an exclusively ecological or philosophical series. For small counts, combine compatible domains in one scene. Do not force any unrequested category into a precise brief.
 
-Repair repeated concepts at their cause. Change what the civilization does, how the technology manifests, or which event is shown before changing the paint color. Keep one or two shared craft traits, such as tactile mark quality and readable detail hierarchy, if the user likes a coherent finish.
+Repair repeated concepts at their cause. Change what the civilization does, how matter organizes, how the technology manifests, or which event is shown before changing the paint color. Compare exposed interiors as well as silhouettes: different subject names can conceal the same ribbed construction. Keep approved craft qualities, such as tactile mark quality and readable detail hierarchy, while varying the [construction language](concept-space.md#change-the-construction-language) when exploring unrelated worlds.
 
 ## 6. Compile the image brief
 
@@ -179,7 +179,7 @@ If a material failure occurs, perform one focused revision that preserves succes
 
 Keep a compact notebook of selected world facts, design fingerprints, exact final prompts when useful, render status and observed mismatches. In a connected series, label established facts and new proposals. In exploration, record repeated motifs to avoid in the next batch.
 
-Translate feedback into specific dimensions: "broader ship topology and more nonhuman worlds" is more useful than "make everything epic." Do not let one successful image impose its palette, ruins, rings or material system on every later world. Do not claim persistent learning or saved memory unless an authorized persistent artifact or skill update was actually made.
+Translate feedback into specific dimensions: "broader ship topology and more nonhuman worlds" is more useful than "make everything epic." After positive feedback, inspect the approved image and name the spatial, material and atmospheric relationships that worked. Carry those qualities into the next prompt while changing its premise and construction when exploration is requested. Compare actual renders again; a planned difference may disappear during generation. Do not let one successful image impose its palette, ruins, rings or material system on every later world. Do not claim persistent learning or saved memory unless an authorized persistent artifact or skill update was actually made.
 
 ## Worked causal example
 
